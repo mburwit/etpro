@@ -1,9 +1,9 @@
-Instance: ETproQuestionnaire
+Instance: ETproAssessmentQuestionnaire
 InstanceOf: Questionnaire
-Title: "ETpro"
+Title: "ETpro Assessment"
 Description: "ETpro Assessment"
 Usage: #definition
 * insert QuestionnaireMetadata
 * url = $etpro-etpro-questionnaire
-* name = "ETpro"
+* name = "ETproAssessment"
 * title = "ETpro Assessment Questionnaire"
