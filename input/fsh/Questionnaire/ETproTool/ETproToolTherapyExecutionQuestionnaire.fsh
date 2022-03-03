@@ -4,5 +4,5 @@ Usage: #definition
 Description: "Dokumentation der Durchführung der ergotherapeutischen Therapie gemäß des ETpro Prozessstandards"
 * insert QuestionnaireMetadata
 * url = $etpro-tool-therapyexecution-questionnaire
-* name = "ETpro Tool Therapy Execution"
+* name = "ETproToolTherapyExecution"
 * title = "ETpro Tool - Therapiedurchführung"

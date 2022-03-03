@@ -27,7 +27,7 @@ publisher:
 dependencies:
   hl7.fhir.uv.sdc:
     version: 3.0.0-preview
-    uri: http://hl7.org/fhir/uv/sdc
+    uri: http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc
     id: sdc
 #
 #
@@ -74,15 +74,9 @@ dependencies:
 menu:
   Home: index.html
   Artifacts:
-#    Message Definitions: artifacts.html#1
-    Profiles: artifacts.html#2
-    Value Sets: artifacts.html#3
-    Code Systems: artifacts.html#4
-    Structure Maps: artifacts.html#5
-#    Activity Definitions: artifacts.html#6
-#    Plan Definitinos: artifacts.html#7
-#    Examples: artifacts.html#8
-    Other: artifacts.html#9
+    Summary: artifacts.html
+    ETpro Tool: Questionnaire-ETproToolQuestionnaire.html
+    ETpro Assessment: Questionnaire-ETproAssessmentQuestionnaire.html
   Downloads:
     Full IG: full-ig.zip
 
