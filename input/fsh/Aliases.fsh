@@ -45,6 +45,7 @@ Alias: $v2-0003 = http://terminology.hl7.org/CodeSystem/v2-0003
 Alias: $v2-0276 = http://terminology.hl7.org/CodeSystem/v2-0276
 Alias: $v3-participation-type = http://terminology.hl7.org/CodeSystem/v3-ParticipationType
 Alias: $v3-role-code = http://terminology.hl7.org/CodeSystem/v3-RoleCode
+Alias: $gender-amtlich-de = http://fhir.de/CodeSystem/gender-amtlich-de
 
 // ETpro Questionnaires and Answer Lists
 // Tool
@@ -68,3 +69,6 @@ Alias: $etpro-assessment-therapyexecution-questionnaire = https://dve.info/ergot
 Alias: $etpro-assessment-evaluation-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentEvaluationQuestionnaire
 Alias: $etpro-assessment-furtherproceeding-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentFurtherProceedingQuestionnaire
 
+// ETpro Value Sets
+Alias: $etpro-yesnounk-answerlist-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/YesNoUnknownVS
+Alias: $etpro-gender-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/GenderVS
