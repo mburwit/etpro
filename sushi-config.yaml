@@ -73,10 +73,18 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Artifacts:
-    Summary: artifacts.html
-    ETpro Tool: Questionnaire-ETproToolQuestionnaire.html
-    ETpro Assessment: Questionnaire-ETproAssessmentQuestionnaire.html
+  Artifacts: artifacts.html
+  ETpro Tool:
+    Gesamt: Questionnaire-ETproToolQuestionnaire.html
+    0 - Daten zur Person: Questionnaire-ETproToolPersonalDataQuestionnaire.html
+    1A - Screening: Questionnaire-ETproToolScreeningQuestionnaire.html
+    1B - Diagnostik: Questionnaire-ETproToolDiagnosticsQuestionnaire.html
+    1C - Zieldefinition: Questionnaire-ETproToolGoalDefinitionQuestionnaire.html
+    1D - Therapieplanung: Questionnaire-ETproToolTherapyPlanningQuestionnaire.html
+    2 - Therapiedurchführung: Questionnaire-ETproToolTherapyExecutionQuestionnaire.html
+    3 - Evaluation: Questionnaire-ETproToolEvaluationQuestionnaire.html
+    4 - Weiteres Prozedere: Questionnaire-ETproToolFurtherProceedingQuestionnaire.html
+  ETpro Assessment: Questionnaire-ETproAssessmentQuestionnaire.html
   Downloads:
     Full IG: full-ig.zip
 
