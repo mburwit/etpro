@@ -48,3 +48,12 @@ Alias: $v3-role-code = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 
 // ETpro Questionnaires and Answer Lists
 Alias: $etpro-assessment-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentQuestionnaire
+Alias: $etpro-tool-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproToolQuestionnaire
+Alias: $etpro-tool-personaldata-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproToolPersonalDataQuestionnaire
+Alias: $etpro-tool-screening-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproToolScreeningQuestionnaire
+Alias: $etpro-tool-diagnostics-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproToolDiagnosticsQuestionnaire
+Alias: $etpro-tool-goaldefinition-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproToolGoalDefinitionQuestionnaire
+Alias: $etpro-tool-therapyplanning-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproToolTherapyPlanningQuestionnaire
+Alias: $etpro-tool-therapyexecution-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproToolTherapyExecutionQuestionnaire
+Alias: $etpro-tool-evaluation-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproToolEvaluationQuestionnaire
+Alias: $etpro-tool-furtherproceeding-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproToolFurtherProceedingQuestionnaire

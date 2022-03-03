@@ -1,7 +1,6 @@
 Instance: ETproAssessmentQuestionnaire
 InstanceOf: Questionnaire
-Title: "ETpro Assessment"
-Description: "ETpro Assessment"
+Description: "ETpro Assessment Bogen"
 Usage: #definition
 * insert QuestionnaireMetadata
 * url = $etpro-assessment-questionnaire
