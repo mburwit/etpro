@@ -3,7 +3,7 @@
 ### Looking for the readable FHIR Implementation Guide?
 
 
-Please visit [FHIR Implementation Guide](https://build.fhir.org/ig/helict/qpath4ms-ig/)
+Please visit [FHIR Implementation Guide](https://build.fhir.org/ig/mburwit/etpro/)
 
 To interprete/compile FHIR Shorthand (FSH) files use [SUSHI](https://github.com/FHIR/sushi) command line tool
 (reverse conversion with [GoFSH](https://github.com/FHIR/GoFSH)). To generate the complete QPath4MS FHIR IG run 
