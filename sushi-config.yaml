@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.etpro
-canonical: https://dve.info/information/kontakt
+canonical: https://dve.info/ergotherapie/etpro
 name: ETpro IG
 title: ETpro FHIR Implementation Guide
 description: Ein Leitfaden zur Implementierung des ETpro Qualitätsstandards
