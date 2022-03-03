@@ -84,7 +84,16 @@ menu:
     2 - Therapiedurchführung: Questionnaire-ETproToolTherapyExecutionQuestionnaire.html
     3 - Evaluation: Questionnaire-ETproToolEvaluationQuestionnaire.html
     4 - Weiteres Prozedere: Questionnaire-ETproToolFurtherProceedingQuestionnaire.html
-  ETpro Assessment: Questionnaire-ETproAssessmentQuestionnaire.html
+  ETpro Assessment:
+    Gesamt: Questionnaire-ETproAssessmentQuestionnaire.html
+    0 - Daten zur Person: Questionnaire-ETproAssessmentPersonalDataQuestionnaire.html
+    1A - Screening: Questionnaire-ETproAssessmentScreeningQuestionnaire.html
+    1B - Diagnostik: Questionnaire-ETproAssessmentDiagnosticsQuestionnaire.html
+    1C - Zieldefinition: Questionnaire-ETproAssessmentGoalDefinitionQuestionnaire.html
+    1D - Therapieplanung: Questionnaire-ETproAssessmentTherapyPlanningQuestionnaire.html
+    2 - Therapiedurchführung: Questionnaire-ETproAssessmentTherapyExecutionQuestionnaire.html
+    3 - Evaluation: Questionnaire-ETproAssessmentEvaluationQuestionnaire.html
+    4 - Weiteres Prozedere: Questionnaire-ETproAssessmentFurtherProceedingQuestionnaire.html
   Downloads:
     Full IG: full-ig.zip
 
@@ -177,6 +186,14 @@ groups:
    description: Der ETpro QM-Datensatz
    resources:
      - Questionnaire/ETproAssessmentQuestionnaire
+     - Questionnaire/ETproAssessmentPersonalDataQuestionnaire
+     - Questionnaire/ETproAssessmentScreeningQuestionnaire
+     - Questionnaire/ETproAssessmentDiagnosticsQuestionnaire
+     - Questionnaire/ETproAssessmentGoalDefinitionQuestionnaire
+     - Questionnaire/ETproAssessmentTherapyPlanningQuestionnaire
+     - Questionnaire/ETproAssessmentTherapyExecutionQuestionnaire
+     - Questionnaire/ETproAssessmentEvaluationQuestionnaire
+     - Questionnaire/ETproAssessmentFurtherProceedingQuestionnaire
 #
 #
 # The ImplementationGuide resource defines several other properties

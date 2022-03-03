@@ -47,7 +47,7 @@ Alias: $v3-participation-type = http://terminology.hl7.org/CodeSystem/v3-Partici
 Alias: $v3-role-code = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 
 // ETpro Questionnaires and Answer Lists
-Alias: $etpro-assessment-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentQuestionnaire
+// Tool
 Alias: $etpro-tool-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproToolQuestionnaire
 Alias: $etpro-tool-personaldata-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproToolPersonalDataQuestionnaire
 Alias: $etpro-tool-screening-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproToolScreeningQuestionnaire
@@ -57,3 +57,14 @@ Alias: $etpro-tool-therapyplanning-questionnaire = https://dve.info/ergotherapie
 Alias: $etpro-tool-therapyexecution-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproToolTherapyExecutionQuestionnaire
 Alias: $etpro-tool-evaluation-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproToolEvaluationQuestionnaire
 Alias: $etpro-tool-furtherproceeding-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproToolFurtherProceedingQuestionnaire
+// Assessment
+Alias: $etpro-assessment-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentQuestionnaire
+Alias: $etpro-assessment-personaldata-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentPersonalDataQuestionnaire
+Alias: $etpro-assessment-screening-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentScreeningQuestionnaire
+Alias: $etpro-assessment-diagnostics-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentDiagnosticsQuestionnaire
+Alias: $etpro-assessment-goaldefinition-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentGoalDefinitionQuestionnaire
+Alias: $etpro-assessment-therapyplanning-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentTherapyPlanningQuestionnaire
+Alias: $etpro-assessment-therapyexecution-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentTherapyExecutionQuestionnaire
+Alias: $etpro-assessment-evaluation-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentEvaluationQuestionnaire
+Alias: $etpro-assessment-furtherproceeding-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentFurtherProceedingQuestionnaire
+
