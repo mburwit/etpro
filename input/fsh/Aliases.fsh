@@ -45,3 +45,6 @@ Alias: $v2-0003 = http://terminology.hl7.org/CodeSystem/v2-0003
 Alias: $v2-0276 = http://terminology.hl7.org/CodeSystem/v2-0276
 Alias: $v3-participation-type = http://terminology.hl7.org/CodeSystem/v3-ParticipationType
 Alias: $v3-role-code = http://terminology.hl7.org/CodeSystem/v3-RoleCode
+
+// ETpro Questionnaires and Answer Lists
+Alias: $etpro-assessment-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentQuestionnaire
