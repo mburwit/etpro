@@ -1,0 +1,11 @@
+{
+  "name": "de.dve.etpro.template",
+  "version": "0.1.0",
+  "type": "fhir.template",
+  "description": "Template for ETpro IG",
+  "author": "helict system engineering GmbH",
+  "base": "fhir.base.template",
+  "dependencies": {
+    "fhir.base.template": "current"
+  }
+}
