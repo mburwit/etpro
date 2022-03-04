@@ -103,7 +103,7 @@ menu:
     0 - Daten zur Person: QuestionnaireResponse-ETproAssessment01PersonalData.html
     1A - Screening: QuestionnaireResponse-ETproAssessment01Screening.html
     1B - Diagnostik: QuestionnaireResponse-ETproAssessment01Diagnostics.html
-    1C - Zieldefinition: Questionnaire-ETproAssessment01GoalDefinition.html
+    1C - Zieldefinition: QuestionnaireResponse-ETproAssessment01GoalDefinition.html
 #    1D - Therapieplanung: Questionnaire-ETproAssessmentTherapyPlanningQuestionnaire.html
 #    2 - Therapiedurchführung: Questionnaire-ETproAssessmentTherapyExecutionQuestionnaire.html
 #    3 - Evaluation: Questionnaire-ETproAssessmentEvaluationQuestionnaire.html
