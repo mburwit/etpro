@@ -3,5 +3,5 @@ RuleSet: QuestionnaireMetadata
 * version = "1.0.0"
 * status = $publication-status#draft
 * experimental = true
-* publisher = "helict system engineering GmbH"
+* publisher = "Deutscher Verband Ergotherapie e.V. (DVE)"
 * subjectType = $resource-type#Patient

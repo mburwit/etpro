@@ -6,7 +6,7 @@ Description: "Yes/No/Unknown ValueSet"
 * language = $ietf-bcp-47#de-DE
 * url = $etpro-yesnounk-answerlist-vs
 * version = "1.0.0"
-* name = "Ja-Nein-Unbekannt"
+* name = "JaNeinUnbekannt"
 * status = $publication-status#active
 * compose.include.system = $loinc
 * compose.include.concept[+].code = #LA33-6

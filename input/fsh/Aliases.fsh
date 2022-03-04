@@ -12,7 +12,8 @@ Alias: $extension-ordinal-value = http://hl7.org/fhir/StructureDefinition/ordina
 Alias: $extension-questionnaire-hidden = http://hl7.org/fhir/StructureDefinition/questionnaire-hidden
 Alias: $extension-questionnaire-choice-orientation = http://hl7.org/fhir/StructureDefinition/questionnaire-choiceOrientation
 Alias: $extension-questionnaire-item-control = http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl 
-Alias: $versicherungsart-de-basis = http://fhir.de/CodeSystem/versicherungsart-de-basis
+Alias: $gender-amtlich-de = http://fhir.de/CodeSystem/gender-amtlich-de
+Alias: $icd-10-gm = http://fhir.de/CodeSystem/bfarm/icd-10-gm
 Alias: $ietf-bcp-47 = urn:ietf:bcp:47
 Alias: $ihe-xds-class-code = http://ihe-d.de/ValueSets/IHEXDSclassCode
 Alias: $ihe-xds-confidentiality-code = http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode
@@ -45,7 +46,7 @@ Alias: $v2-0003 = http://terminology.hl7.org/CodeSystem/v2-0003
 Alias: $v2-0276 = http://terminology.hl7.org/CodeSystem/v2-0276
 Alias: $v3-participation-type = http://terminology.hl7.org/CodeSystem/v3-ParticipationType
 Alias: $v3-role-code = http://terminology.hl7.org/CodeSystem/v3-RoleCode
-Alias: $gender-amtlich-de = http://fhir.de/CodeSystem/gender-amtlich-de
+Alias: $versicherungsart-de-basis = http://fhir.de/CodeSystem/versicherungsart-de-basis
 
 // ETpro Questionnaires and Answer Lists
 // Tool
@@ -69,6 +70,13 @@ Alias: $etpro-assessment-therapyexecution-questionnaire = https://dve.info/ergot
 Alias: $etpro-assessment-evaluation-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentEvaluationQuestionnaire
 Alias: $etpro-assessment-furtherproceeding-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentFurtherProceedingQuestionnaire
 
-// ETpro Value Sets
-Alias: $etpro-yesnounk-answerlist-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/YesNoUnknownVS
+// ETpro Terminology
 Alias: $etpro-gender-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/GenderVS
+Alias: $etpro-icd10-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/ICD10VS
+Alias: $etpro-jabedingtnein = https://dve.info/ergotherapie/etpro/fhir/CodeSystem/AufnahmeDerDiagnostik
+Alias: $etpro-jabedingtnein-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/AufnahmeDerDiagnostikVS
+Alias: $etpro-verordnungsarten = https://dve.info/ergotherapie/etpro/fhir/CodeSystem/ArtDerVerordnung
+Alias: $etpro-verordnungsarten-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/ArtDerVerordnungVS
+Alias: $etpro-warnundausschlusskriterien = https://dve.info/ergotherapie/etpro/fhir/CodeSystem/WarnUndAusschlussKriterien
+Alias: $etpro-warnundausschlusskriterien-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/WarnUndAusschlussKriterienVS
+Alias: $etpro-yesnounk-answerlist-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/YesNoUnknownVS
