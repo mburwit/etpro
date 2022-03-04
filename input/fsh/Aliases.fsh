@@ -73,8 +73,8 @@ Alias: $etpro-assessment-furtherproceeding-questionnaire = https://dve.info/ergo
 // ETpro Terminology
 Alias: $etpro-gender-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/GenderVS
 Alias: $etpro-icd10-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/ICD10VS
-Alias: $etpro-jabedingtnein = https://dve.info/ergotherapie/etpro/fhir/CodeSystem/AufnahmeDerDiagnostik
-Alias: $etpro-jabedingtnein-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/AufnahmeDerDiagnostikVS
+Alias: $etpro-jabedingtnein = https://dve.info/ergotherapie/etpro/fhir/CodeSystem/JaBedingtNein
+Alias: $etpro-jabedingtnein-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/JaBedingtNeinVS
 Alias: $etpro-verordnungsarten = https://dve.info/ergotherapie/etpro/fhir/CodeSystem/ArtDerVerordnung
 Alias: $etpro-verordnungsarten-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/ArtDerVerordnungVS
 Alias: $etpro-warnundausschlusskriterien = https://dve.info/ergotherapie/etpro/fhir/CodeSystem/WarnUndAusschlussKriterien

@@ -6,6 +6,7 @@ Usage: #definition
 * url = $etpro-assessment-questionnaire
 * name = "ETproAssessment"
 * title = "ETpro Assessment"
+
 * item[0].linkId = "0"
 * item[=].type = #group
 * item[=].text = "Daten zur Person"
