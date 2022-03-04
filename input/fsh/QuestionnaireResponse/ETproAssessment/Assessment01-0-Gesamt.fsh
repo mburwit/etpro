@@ -21,3 +21,8 @@ Description: "Beispiel eines ETpro Assessments"
 * item[=].item[=].text = "Screening"
 * item[=].item[=].item.linkId = "1A.1"
 * item[=].item[=].item.answer.valueReference = Reference(ETproAssessment01Screening)
+
+* item[=].item[+].linkId = "1B"
+* item[=].item[=].text = "Diagnostik"
+* item[=].item[=].item.linkId = "1B.1"
+* item[=].item[=].item.answer.valueReference = Reference(ETproAssessment01Diagnostics)

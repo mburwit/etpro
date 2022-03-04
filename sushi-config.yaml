@@ -78,16 +78,16 @@ dependencies:
 menu:
   Home: index.html
   Artifacts: artifacts.html
-  ETpro Tool:
-    Gesamt: Questionnaire-ETproToolQuestionnaire.html
-    0 - Daten zur Person: Questionnaire-ETproToolPersonalDataQuestionnaire.html
-    1A - Screening: Questionnaire-ETproToolScreeningQuestionnaire.html
-    1B - Diagnostik: Questionnaire-ETproToolDiagnosticsQuestionnaire.html
-    1C - Zieldefinition: Questionnaire-ETproToolGoalDefinitionQuestionnaire.html
-    1D - Therapieplanung: Questionnaire-ETproToolTherapyPlanningQuestionnaire.html
-    2 - Therapiedurchführung: Questionnaire-ETproToolTherapyExecutionQuestionnaire.html
-    3 - Evaluation: Questionnaire-ETproToolEvaluationQuestionnaire.html
-    4 - Weiteres Prozedere: Questionnaire-ETproToolFurtherProceedingQuestionnaire.html
+#  ETpro Tool:
+#    Gesamt: Questionnaire-ETproToolQuestionnaire.html
+#    0 - Daten zur Person: Questionnaire-ETproToolPersonalDataQuestionnaire.html
+#    1A - Screening: Questionnaire-ETproToolScreeningQuestionnaire.html
+#    1B - Diagnostik: Questionnaire-ETproToolDiagnosticsQuestionnaire.html
+#    1C - Zieldefinition: Questionnaire-ETproToolGoalDefinitionQuestionnaire.html
+#    1D - Therapieplanung: Questionnaire-ETproToolTherapyPlanningQuestionnaire.html
+#    2 - Therapiedurchführung: Questionnaire-ETproToolTherapyExecutionQuestionnaire.html
+#    3 - Evaluation: Questionnaire-ETproToolEvaluationQuestionnaire.html
+#    4 - Weiteres Prozedere: Questionnaire-ETproToolFurtherProceedingQuestionnaire.html
   ETpro Assessment:
     Gesamt: Questionnaire-ETproAssessmentQuestionnaire.html
     0 - Daten zur Person: Questionnaire-ETproAssessmentPersonalDataQuestionnaire.html
@@ -98,6 +98,16 @@ menu:
     2 - Therapiedurchführung: Questionnaire-ETproAssessmentTherapyExecutionQuestionnaire.html
     3 - Evaluation: Questionnaire-ETproAssessmentEvaluationQuestionnaire.html
     4 - Weiteres Prozedere: Questionnaire-ETproAssessmentFurtherProceedingQuestionnaire.html
+  Example Assessment:
+    Gesamt: QuestionnaireResponse-ETproAssessment01.html
+    0 - Daten zur Person: QuestionnaireResponse-ETproAssessment01PersonalData.html
+    1A - Screening: QuestionnaireResponse-ETproAssessment01Screening.html
+    1B - Diagnostik: QuestionnaireResponse-ETproAssessment01Diagnostics.html
+#    1C - Zieldefinition: Questionnaire-ETproAssessmentGoalDefinitionQuestionnaire.html
+#    1D - Therapieplanung: Questionnaire-ETproAssessmentTherapyPlanningQuestionnaire.html
+#    2 - Therapiedurchführung: Questionnaire-ETproAssessmentTherapyExecutionQuestionnaire.html
+#    3 - Evaluation: Questionnaire-ETproAssessmentEvaluationQuestionnaire.html
+#    4 - Weiteres Prozedere: Questionnaire-ETproAssessmentFurtherProceedingQuestionnaire.html
   Downloads:
     Full IG: full-ig.zip
 
