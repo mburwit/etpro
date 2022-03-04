@@ -12,9 +12,11 @@
     --footer-bg-color: #444444; /* Footer background color (sides) */
     --footer-hyperlink-text-color: #1d1d1b;
 
-    --btn-hover-color:#f7ffda;  /* Navbar: Menu button hover color */
-    --btn-hover-text-color:#1d1d1b;  /* Navbar: Menu button hover color */
+    --btn-hover-color: #b1d918;  /* Navbar: Menu button hover color */
+    --btn-active-color:#b1d918;  /* Navbar: Menu button active color */
     --btn-text-color: #1d1d1b; /* Menu button text color */
+    --btn-gradient-start-color: #a2c617;
+    --btn-gradient-end-color: #a2c617;
 
     --link-color:#a2c617; /* Hyperlink text color */
     --link-hover-color:#1d1d1b; /* Hyperlink text hover color */
