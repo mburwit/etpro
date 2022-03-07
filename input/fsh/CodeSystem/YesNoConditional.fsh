@@ -1,4 +1,4 @@
-CodeSystem: JaBedingtNein
+CodeSystem: YesNoConditional
 Title: "Ja / Ja, unter Bedingung(en) / Nein"
 Description: "Ja / Ja, unter Bedingung(en) / Nein"
 * insert CodeSystemMetadata

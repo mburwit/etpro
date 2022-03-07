@@ -1,4 +1,4 @@
-ValueSet: ArtDerVerordnungVS
+ValueSet: PrescriptionTypeVS
 Title: "Art der Verordnung"
 Description: "Liste möglicher Verordnungsarten"
 * ^language = $ietf-bcp-47#de-DE

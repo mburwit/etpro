@@ -1,4 +1,4 @@
-CodeSystem: ArtDerVerordnung
+CodeSystem: PrescriptionType
 Title: "Art der Verordnung"
 Description: "Liste möglicher Verordnungsarten"
 * insert CodeSystemMetadata

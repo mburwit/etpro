@@ -60,6 +60,7 @@ Usage: #definition
 * item[=].text = "Therapiedurchführung"
 * item[=].item.type = #display
 * item[=].item.linkId = "2.1"
+* item[=].item.repeats = true
 * item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item.extension.valueCanonical = $etpro-assessment-therapyexecution-questionnaire
 * item[=].item.definition = $etpro-assessment-therapyexecution-questionnaire

@@ -1,4 +1,4 @@
-CodeSystem: WarnUndAusschlussKriterien
+CodeSystem: WarningAndExclusionCriteria
 Title: "Warn- und Ausschlusskriterien"
 Description: "Liste möglicher Warn- und Ausschlusskriterien"
 * insert CodeSystemMetadata

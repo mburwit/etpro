@@ -1,4 +1,4 @@
-ValueSet: RisikofaktorenVS
+ValueSet: RiskFactorsVS
 Title: "Risikofaktoren"
 Description: "Liste möglicher Risikofaktoren, die Einfluss auf die Ergotherapie nehmen (können)"
 * ^language = $ietf-bcp-47#de-DE

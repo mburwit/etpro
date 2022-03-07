@@ -1,4 +1,4 @@
-ValueSet: WarnUndAusschlussKriterienVS
+ValueSet: WarningAndExclusionCriteriaVS
 Title: "Warn- und Ausschlusskriterien"
 Description: "Liste möglicher Warn- und Ausschlusskriterien"
 * ^language = $ietf-bcp-47#de-DE

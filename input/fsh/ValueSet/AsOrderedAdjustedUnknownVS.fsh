@@ -1,4 +1,4 @@
-ValueSet: WieverordnetAnpassungUnkVS
+ValueSet: AsOrderedAdjustedUnknownVS
 Title: "Wie verordnet / Anpasssung notwendig / Unbekannt"
 Description: "Wie verordnet / Anpasssung notwendig / Unbekannt ValueSet"
 * ^language = $ietf-bcp-47#de-DE

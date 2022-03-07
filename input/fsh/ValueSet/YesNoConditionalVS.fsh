@@ -1,4 +1,4 @@
-ValueSet: JaBedingtNeinVS
+ValueSet: YesNoConditionalVS
 Title: "Ja / Ja, unter Bedingung(en) / Nein"
 Description: "Ja / Ja, unter Bedingung(en) / Nein"
 * ^language = $ietf-bcp-47#de-DE

@@ -13,7 +13,7 @@ Description: "Dokumentation der ergotherapeutischen Diagnostik gemäß des ETpro
 * item[=].required = true
 * item[=].repeats = true
 * item[=].readOnly = false
-* item[=].answerValueSet = Canonical(RisikofaktorenVS)
+* item[=].answerValueSet = Canonical(RiskFactorsVS)
 
 * item[+].linkId = "ETpro-A-DIAG.1"
 * item[=].text = "Risikobewertung"
@@ -21,7 +21,7 @@ Description: "Dokumentation der ergotherapeutischen Diagnostik gemäß des ETpro
 * item[=].required = true
 * item[=].repeats = false
 * item[=].readOnly = false
-* item[=].answerValueSet = Canonical(RisikobewertungVS)
+* item[=].answerValueSet = Canonical(RiskAssessmentVS)
 
 * item[+].linkId = "ETpro-A-DIAG.2"
 * item[=].text = "Diagnostische Interventionen"
@@ -82,4 +82,4 @@ Description: "Dokumentation der ergotherapeutischen Diagnostik gemäß des ETpro
 * item[=].required = true
 * item[=].repeats = false
 * item[=].readOnly = false
-* item[=].answerValueSet = Canonical(JaBedingtNeinVS)
+* item[=].answerValueSet = Canonical(YesNoConditionalVS)

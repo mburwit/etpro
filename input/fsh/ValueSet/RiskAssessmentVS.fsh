@@ -1,4 +1,4 @@
-ValueSet: RisikobewertungVS
+ValueSet: RiskAssessmentVS
 Title: "Risikobewertung"
 Description: "Mögliche Risikobewertung für die Ergotherapie"
 * ^language = $ietf-bcp-47#de-DE

@@ -1,4 +1,4 @@
-CodeSystem: Risikofaktoren
+CodeSystem: RiskFactors
 Title: "Risikofaktoren"
 Description: "Liste möglicher Risikofaktoren, die Einfluss auf die Ergotherapie nehmen (können)"
 * insert CodeSystemMetadata

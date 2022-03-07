@@ -71,18 +71,18 @@ Alias: $etpro-assessment-evaluation-questionnaire = https://dve.info/ergotherapi
 Alias: $etpro-assessment-furtherproceeding-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentFurtherProceeding
 
 // ETpro Terminology
-Alias: $etpro-gender-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/Gender
-Alias: $etpro-icd10-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/ICD10
+Alias: $etpro-gender-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/GenderVS
+Alias: $etpro-icd10-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/ICD10VS
 Alias: $etpro-jabedingtnein = https://dve.info/ergotherapie/etpro/fhir/CodeSystem/YesNoConditional
-Alias: $etpro-jabedingtnein-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/YesNoConditional
+Alias: $etpro-jabedingtnein-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/YesNoConditionalVS
 Alias: $etpro-risikobewertung = https://dve.info/ergotherapie/etpro/fhir/CodeSystem/RiskAssessment
-Alias: $etpro-risikobewertung-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/RiskAssessment
+Alias: $etpro-risikobewertung-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/RiskAssessmentVS
 Alias: $etpro-risikofaktoren = https://dve.info/ergotherapie/etpro/fhir/CodeSystem/RiskFactors
-Alias: $etpro-risikofaktoren-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/RiskFactors
+Alias: $etpro-risikofaktoren-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/RiskFactorsVS
 Alias: $etpro-verordnungsarten = https://dve.info/ergotherapie/etpro/fhir/CodeSystem/PrescriptionType
-Alias: $etpro-verordnungsarten-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/PrescriptionType
+Alias: $etpro-verordnungsarten-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/PrescriptionTypeVS
 Alias: $etpro-warnundausschlusskriterien = https://dve.info/ergotherapie/etpro/fhir/CodeSystem/WarningAndExclusionCriteria
-Alias: $etpro-warnundausschlusskriterien-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/WarningAndExclusionCriteria
+Alias: $etpro-warnundausschlusskriterien-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/WarningAndExclusionCriteriaVS
 Alias: $etpro-wieverordnetAnpassungUnk = https://dve.info/ergotherapie/etpro/fhir/CodeSystem/AsOrderedAdjustedUnknown
-Alias: $etpro-wieverordnetAnpassungUnk-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/AsOrderedAdjustedUnknown
-Alias: $etpro-yesnounk-answerlist-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/YesNoUnknown
+Alias: $etpro-wieverordnetAnpassungUnk-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/AsOrderedAdjustedUnknownVS
+Alias: $etpro-yesnounk-answerlist-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/YesNoUnknownVS

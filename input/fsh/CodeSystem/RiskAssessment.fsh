@@ -1,4 +1,4 @@
-CodeSystem: Risikobewertung
+CodeSystem: RiskAssessment
 Title: "Risikobewertung"
 Description: "Mögliche Risikobewertung für die Ergotherapie"
 * insert CodeSystemMetadata

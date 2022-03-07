@@ -13,7 +13,7 @@ Description: "Dokumentation der Planung der ergotherapeutischen Therapie gemäß
 * item[=].required = true
 * item[=].repeats = false
 * item[=].readOnly = false
-* item[=].answerValueSet = Canonical(WieverordnetAnpassungUnkVS)
+* item[=].answerValueSet = Canonical(AsOrderedAdjustedUnknownVS)
 
 * item[+].linkId = "ETpro-A-TPLAN.1"
 * item[=].text = "Therapiefrequenz"
@@ -21,7 +21,7 @@ Description: "Dokumentation der Planung der ergotherapeutischen Therapie gemäß
 * item[=].required = true
 * item[=].repeats = false
 * item[=].readOnly = false
-* item[=].answerValueSet = Canonical(WieverordnetAnpassungUnkVS)
+* item[=].answerValueSet = Canonical(AsOrderedAdjustedUnknownVS)
 
 * item[+].linkId = "ETpro-A-TPLAN.2"
 * item[=].text = "Gab es eine therapeutisch begründete Unterbrechung?"

@@ -13,7 +13,7 @@ Description: "Dokumentation des ergotherapeutischen Screenings gemäß des ETpro
 * item[=].required = true
 * item[=].repeats = false
 * item[=].readOnly = false
-* item[=].answerValueSet = Canonical(ArtDerVerordnungVS)
+* item[=].answerValueSet = Canonical(PrescriptionTypeVS)
 
 * item[+].linkId = "ETpro-A-SC.1"
 * item[=].text = "Diagnosen"
@@ -44,7 +44,7 @@ Description: "Dokumentation des ergotherapeutischen Screenings gemäß des ETpro
 * item[=].required = true
 * item[=].repeats = true
 * item[=].readOnly = false
-* item[=].answerValueSet = Canonical(WarnUndAusschlussKriterienVS)
+* item[=].answerValueSet = Canonical(WarningAndExclusionCriteriaVS)
 
 * item[+].linkId = "ETpro-A-SC.5"
 * item[=].text = "Aufnahme der ergotherapeutischen Diagnostik unter Berücksichtigung möglicher Ausschlüsse"
@@ -52,7 +52,7 @@ Description: "Dokumentation des ergotherapeutischen Screenings gemäß des ETpro
 * item[=].required = true
 * item[=].repeats = false
 * item[=].readOnly = false
-* item[=].answerValueSet = Canonical(JaBedingtNeinVS)
+* item[=].answerValueSet = Canonical(YesNoConditionalVS)
 
 * item[+].linkId = "ETpro-A-SC.6"
 * item[=].text = "Behandlungsbeginn"

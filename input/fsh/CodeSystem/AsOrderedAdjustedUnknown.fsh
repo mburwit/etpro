@@ -1,4 +1,4 @@
-CodeSystem: WieverordnetAnpassungUnk
+CodeSystem: AsOrderedAdjustedUnknown
 Title: "Wie verordnet / Anpasssung notwendig / Unbekannt"
 Description: "Wie verordnet / Anpasssung notwendig / Unbekannt"
 * insert CodeSystemMetadata

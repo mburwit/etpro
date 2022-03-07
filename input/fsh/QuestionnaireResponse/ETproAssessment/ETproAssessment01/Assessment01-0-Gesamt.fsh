@@ -31,3 +31,15 @@ Description: "Beispiel eines ETpro Assessments"
 * item[=].item[=].text = "Zieldefinition"
 * item[=].item[=].item.linkId = "1C.1"
 * item[=].item[=].item.answer.valueReference = Reference(ETproAssessment01GoalDefinition)
+
+* item[=].item[+].linkId = "1D"
+* item[=].item[=].text = "Therapieplanung"
+* item[=].item[=].item.linkId = "1D.1"
+* item[=].item[=].item.answer.valueReference = Reference(ETproAssessment01TherapyPlanning)
+
+* item[+].linkId = "2"
+* item[=].text = "Therapiedurchführung"
+* item[=].item[+].linkId = "2.1"
+* item[=].item[=].answer.valueReference = Reference(ETproAssessment01TherapyExecution01)
+* item[=].item[+].linkId = "2.1"
+* item[=].item[=].answer.valueReference = Reference(ETproAssessment01TherapyExecution02)
