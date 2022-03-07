@@ -1,4 +1,4 @@
-Instance: ETproToolDiagnosticsQuestionnaire
+Instance: ETproToolDiagnostics
 InstanceOf: Questionnaire
 Usage: #definition
 Description: "Dokumentation der ergotherapeutischen Diagnostik gemäß des ETpro Prozessstandards"

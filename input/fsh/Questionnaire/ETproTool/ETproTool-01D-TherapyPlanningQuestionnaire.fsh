@@ -1,4 +1,4 @@
-Instance: ETproToolTherapyPlanningQuestionnaire
+Instance: ETproToolTherapyPlanning
 InstanceOf: Questionnaire
 Usage: #definition
 Description: "Dokumentation der Planung der ergotherapeutischen Therapie gemäß des ETpro Prozessstandards"

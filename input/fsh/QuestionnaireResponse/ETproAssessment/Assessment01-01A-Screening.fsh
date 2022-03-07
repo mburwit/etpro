@@ -5,7 +5,7 @@ Title: "Beispiel-Assessment - Screening"
 Description: "Beispiel eines ETpro Assessments - Screening"
 
 * language = $ietf-bcp-47#de-DE
-* questionnaire = Canonical(ETproAssessmentScreeningQuestionnaire)
+* questionnaire = Canonical(ETproAssessmentScreening)
 * status = $questionnaire-answers-status#completed
 * authored = "2022-03-04T10:49:17Z"
 * author = Reference(ETproBeispielPraxis)

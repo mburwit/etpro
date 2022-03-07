@@ -5,7 +5,7 @@ Title: "Beispiel-Assessment - Daten zur Person"
 Description: "Beispiel eines ETpro Assessments - Daten zur Person"
 
 * language = $ietf-bcp-47#de-DE
-* questionnaire = Canonical(ETproAssessmentPersonalDataQuestionnaire)
+* questionnaire = Canonical(ETproAssessmentPersonalData)
 * status = $questionnaire-answers-status#completed
 * authored = "2022-03-04T10:49:17Z"
 * author = Reference(ETproBeispielPraxis)

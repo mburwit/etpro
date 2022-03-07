@@ -1,11 +1,11 @@
-Instance: ETproAssessmentPersonalDataQuestionnaire
+Instance: ETproAssessmentPersonalData
 InstanceOf: Questionnaire
 Usage: #definition
+Title: "ETpro Assessment - Daten zur Person"
 Description: "Für das ETpro Assessment benötigte Daten zur Person."
 * insert QuestionnaireMetadata
 * url = $etpro-assessment-personaldata-questionnaire
 * name = "ETproAssessmentPersonalData"
-* title = "ETpro Assessment - Daten zur Person"
 
 * item[+].linkId = "ETpro-A-PD.0"
 * item[=].text = "Geburtsjahr"

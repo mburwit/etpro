@@ -5,7 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: de.dve.etpro
 canonical: https://dve.info/ergotherapie/etpro
-name: ETpro IG
+name: ETproIG
 title: ETpro FHIR Implementation Guide
 description: Ein Leitfaden zur Implementierung des ETpro Qualitätsstandards
 status: draft # draft | active | retired | unknown
@@ -89,22 +89,22 @@ menu:
 #    3 - Evaluation: Questionnaire-ETproToolEvaluationQuestionnaire.html
 #    4 - Weiteres Prozedere: Questionnaire-ETproToolFurtherProceedingQuestionnaire.html
   ETpro Assessment:
-    Gesamt: Questionnaire-ETproAssessmentQuestionnaire.html
-    0 - Daten zur Person: Questionnaire-ETproAssessmentPersonalDataQuestionnaire.html
-    1A - Screening: Questionnaire-ETproAssessmentScreeningQuestionnaire.html
-    1B - Diagnostik: Questionnaire-ETproAssessmentDiagnosticsQuestionnaire.html
-    1C - Zieldefinition: Questionnaire-ETproAssessmentGoalDefinitionQuestionnaire.html
-    1D - Therapieplanung: Questionnaire-ETproAssessmentTherapyPlanningQuestionnaire.html
-    2 - Therapiedurchführung: Questionnaire-ETproAssessmentTherapyExecutionQuestionnaire.html
-    3 - Evaluation: Questionnaire-ETproAssessmentEvaluationQuestionnaire.html
-    4 - Weiteres Prozedere: Questionnaire-ETproAssessmentFurtherProceedingQuestionnaire.html
+    Gesamt: Questionnaire-ETproAssessment.html
+    0 - Daten zur Person: Questionnaire-ETproAssessmentPersonalData.html
+    1A - Screening: Questionnaire-ETproAssessmentScreening.html
+    1B - Diagnostik: Questionnaire-ETproAssessmentDiagnostics.html
+    1C - Zieldefinition: Questionnaire-ETproAssessmentGoalDefinition.html
+    1D - Therapieplanung: Questionnaire-ETproAssessmentTherapyPlanning.html
+    2 - Therapiedurchführung: Questionnaire-ETproAssessmentTherapyExecution.html
+    3 - Evaluation: Questionnaire-ETproAssessmentEvaluation.html
+    4 - Weiteres Prozedere: Questionnaire-ETproAssessmentFurtherProceeding.html
   Example Assessment:
     Gesamt: QuestionnaireResponse-ETproAssessment01.html
     0 - Daten zur Person: QuestionnaireResponse-ETproAssessment01PersonalData.html
     1A - Screening: QuestionnaireResponse-ETproAssessment01Screening.html
     1B - Diagnostik: QuestionnaireResponse-ETproAssessment01Diagnostics.html
     1C - Zieldefinition: QuestionnaireResponse-ETproAssessment01GoalDefinition.html
-#    1D - Therapieplanung: Questionnaire-ETproAssessmentTherapyPlanningQuestionnaire.html
+    1D - Therapieplanung: QuestionnaireResponse-ETproAssessment01TherapyPlanning.html
 #    2 - Therapiedurchführung: Questionnaire-ETproAssessmentTherapyExecutionQuestionnaire.html
 #    3 - Evaluation: Questionnaire-ETproAssessmentEvaluationQuestionnaire.html
 #    4 - Weiteres Prozedere: Questionnaire-ETproAssessmentFurtherProceedingQuestionnaire.html
@@ -186,28 +186,28 @@ groups:
    name: ETpro Tool
    description: Das ETpro Tool zur Dokumentation
    resources:
-   - Questionnaire/ETproToolQuestionnaire
-   - Questionnaire/ETproToolPersonalDataQuestionnaire
-   - Questionnaire/ETproToolScreeningQuestionnaire
-   - Questionnaire/ETproToolDiagnosticsQuestionnaire
-   - Questionnaire/ETproToolGoalDefinitionQuestionnaire
-   - Questionnaire/ETproToolTherapyPlanningQuestionnaire
-   - Questionnaire/ETproToolTherapyExecutionQuestionnaire
-   - Questionnaire/ETproToolEvaluationQuestionnaire
-   - Questionnaire/ETproToolFurtherProceedingQuestionnaire
+   - Questionnaire/ETproTool
+   - Questionnaire/ETproToolPersonalData
+   - Questionnaire/ETproToolScreening
+   - Questionnaire/ETproToolDiagnostics
+   - Questionnaire/ETproToolGoalDefinition
+   - Questionnaire/ETproToolTherapyPlanning
+   - Questionnaire/ETproToolTherapyExecution
+   - Questionnaire/ETproToolEvaluation
+   - Questionnaire/ETproToolFurtherProceeding
   GroupAssessment:
    name: ETpro Assessment
    description: Der ETpro QM-Datensatz
    resources:
-     - Questionnaire/ETproAssessmentQuestionnaire
-     - Questionnaire/ETproAssessmentPersonalDataQuestionnaire
-     - Questionnaire/ETproAssessmentScreeningQuestionnaire
-     - Questionnaire/ETproAssessmentDiagnosticsQuestionnaire
-     - Questionnaire/ETproAssessmentGoalDefinitionQuestionnaire
-     - Questionnaire/ETproAssessmentTherapyPlanningQuestionnaire
-     - Questionnaire/ETproAssessmentTherapyExecutionQuestionnaire
-     - Questionnaire/ETproAssessmentEvaluationQuestionnaire
-     - Questionnaire/ETproAssessmentFurtherProceedingQuestionnaire
+     - Questionnaire/ETproAssessment
+     - Questionnaire/ETproAssessmentPersonalData
+     - Questionnaire/ETproAssessmentScreening
+     - Questionnaire/ETproAssessmentDiagnostics
+     - Questionnaire/ETproAssessmentGoalDefinition
+     - Questionnaire/ETproAssessmentTherapyPlanning
+     - Questionnaire/ETproAssessmentTherapyExecution
+     - Questionnaire/ETproAssessmentEvaluation
+     - Questionnaire/ETproAssessmentFurtherProceeding
 #
 #
 # The ImplementationGuide resource defines several other properties

@@ -1,11 +1,11 @@
-Instance: ETproAssessmentDiagnosticsQuestionnaire
+Instance: ETproAssessmentDiagnostics
 InstanceOf: Questionnaire
 Usage: #definition
+Title: "ETpro Assessment - Diagnostik"
 Description: "Dokumentation der ergotherapeutischen Diagnostik gemäß des ETpro Prozessstandards"
 * insert QuestionnaireMetadata
 * url = $etpro-assessment-diagnostics-questionnaire
 * name = "ETproAssessmentDiagnostics"
-* title = "ETpro Assessment - Diagnostik"
 
 * item[+].linkId = "ETpro-A-DIAG.0"
 * item[=].text = "Risikofaktoren"

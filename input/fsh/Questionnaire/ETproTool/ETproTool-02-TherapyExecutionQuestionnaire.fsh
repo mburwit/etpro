@@ -1,4 +1,4 @@
-Instance: ETproToolTherapyExecutionQuestionnaire
+Instance: ETproToolTherapyExecution
 InstanceOf: Questionnaire
 Usage: #definition
 Description: "Dokumentation der Durchführung der ergotherapeutischen Therapie gemäß des ETpro Prozessstandards"

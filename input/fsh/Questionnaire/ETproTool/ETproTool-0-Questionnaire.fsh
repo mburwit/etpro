@@ -1,4 +1,4 @@
-Instance: ETproToolQuestionnaire
+Instance: ETproTool
 InstanceOf: Questionnaire
 Description: "Abbildung des PDF-Tools zur Dokumentation einer Ergotherapeutischen Leistung gemäß ETpro"
 Usage: #definition

@@ -1,4 +1,4 @@
-Instance: ETproToolGoalDefinitionQuestionnaire
+Instance: ETproToolGoalDefinition
 InstanceOf: Questionnaire
 Usage: #definition
 Description: "Dokumentation der ergotherapeutischen Zieldefinition gemäß des ETpro Prozessstandards"

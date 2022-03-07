@@ -1,11 +1,11 @@
-Instance: ETproAssessmentScreeningQuestionnaire
+Instance: ETproAssessmentScreening
 InstanceOf: Questionnaire
 Usage: #definition
+Title: "ETpro Assessment - Screening"
 Description: "Dokumentation des ergotherapeutischen Screenings gemäß des ETpro Prozessstandards"
 * insert QuestionnaireMetadata
 * url = $etpro-assessment-screening-questionnaire
 * name = "ETproAssessmentScreening"
-* title = "ETpro Assessment - Screening"
 
 * item[+].linkId = "ETpro-A-SC.0"
 * item[=].text = "Verordnung / sonstiger Auftrag"

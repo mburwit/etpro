@@ -1,4 +1,4 @@
-Instance: ETproToolScreeningQuestionnaire
+Instance: ETproToolScreening
 InstanceOf: Questionnaire
 Usage: #definition
 Description: "Dokumentation des ergotherapeutischen Screenings gemäß des ETpro Prozessstandards"

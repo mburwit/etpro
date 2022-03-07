@@ -1,11 +1,11 @@
-Instance: ETproAssessmentQuestionnaire
+Instance: ETproAssessment
 InstanceOf: Questionnaire
+Title: "ETpro Assessment"
 Description: "QM-Datensatz einer Ergotherapeutischen Leistung zum zwecke des Qualitäts-Assessment und zur Übermittlung an den DVE gemäß ETpro"
 Usage: #definition
 * insert QuestionnaireMetadata
 * url = $etpro-assessment-questionnaire
 * name = "ETproAssessment"
-* title = "ETpro Assessment"
 
 * item[0].linkId = "0"
 * item[=].type = #group

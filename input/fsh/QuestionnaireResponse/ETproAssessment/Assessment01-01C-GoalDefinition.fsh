@@ -5,7 +5,7 @@ Title: "Beispiel-Assessment - Zieldefinition"
 Description: "Beispiel eines ETpro Assessments - Zieldefinition"
 
 * language = $ietf-bcp-47#de-DE
-* questionnaire = Canonical(ETproAssessmentGoalDefinitionQuestionnaire)
+* questionnaire = Canonical(ETproAssessmentGoalDefinition)
 * status = $questionnaire-answers-status#completed
 * authored = "2022-03-04T10:49:17Z"
 * author = Reference(ETproBeispielPraxis)

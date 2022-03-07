@@ -1,4 +1,4 @@
-Instance: ETproToolPersonalDataQuestionnaire
+Instance: ETproToolPersonalData
 InstanceOf: Questionnaire
 Usage: #definition
 Description: "Persönliche Angaben zum Klienten gemäß des ETpro Prozessstandards"

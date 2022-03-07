@@ -1,4 +1,4 @@
-Instance: ETproToolFurtherProceedingQuestionnaire
+Instance: ETproToolFurtherProceeding
 InstanceOf: Questionnaire
 Usage: #definition
 Description: "Dokumentation der Festlegung des Folge-Prozedere einer ergotherapeutischen Therapie gemäß des ETpro Prozessstandards"

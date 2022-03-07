@@ -1,4 +1,4 @@
-Instance: ETproToolEvaluationQuestionnaire
+Instance: ETproToolEvaluation
 InstanceOf: Questionnaire
 Usage: #definition
 Description: "Dokumentation der Evaluation einer ergotherapeutischen Therapie gemäß des ETpro Prozessstandards"
