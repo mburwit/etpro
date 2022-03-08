@@ -20,11 +20,12 @@ Description: "Dokumentation der Durchführung der ergotherapeutischen Therapie g
 * item[=].required = true
 
 * item[=].item[+].linkId = "ETpro-A-TEXE.1.0"
-* item[=].item[=].text = "Therapieinhalte / Maßnahmen"
-* item[=].item[=].type = $item-type#string
+* item[=].item[=].text = "Wurden Therapieinhalte / Maßnahmen erfasst?"
+* item[=].item[=].type = $item-type#boolean
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = false
+* item[=].item[=].initial.valueBoolean = false
 
 * item[=].item[+].linkId = "ETpro-A-TEXE.1.1"
 * item[=].item[=].text = "Therapie entsprechend der Ziele?"
@@ -54,11 +55,12 @@ Description: "Dokumentation der Durchführung der ergotherapeutischen Therapie g
 * item[=].item[=].initial.valueBoolean = false
 
 * item[=].item[+].linkId = "ETpro-A-TEXE.2.1"
-* item[=].item[=].text = "Falls ja, welche?"
-* item[=].item[=].type = $item-type#string
+* item[=].item[=].text = "Falls ja, wurden diese erfasst?"
+* item[=].item[=].type = $item-type#boolean
 * item[=].item[=].required = false
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = false
+* item[=].item[=].initial.valueBoolean = false
 * item[=].item[=].enableBehavior = $questionnaire-enable-behavior#all
 * item[=].item[=].enableWhen[+].question = "ETpro-A-TEXE.2.0"
 * item[=].item[=].enableWhen[=].operator = $questionnaire-enable-operator#=

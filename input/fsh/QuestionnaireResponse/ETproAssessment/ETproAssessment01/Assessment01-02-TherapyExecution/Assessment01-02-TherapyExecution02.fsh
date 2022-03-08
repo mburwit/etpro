@@ -20,8 +20,8 @@ Description: "Beispiel eines ETpro Assessments - Therapiedurchführung - 2. Ther
 * item[=].text = "Therapieinhalte / Maßnahmen / Status Zielerreichung"
 
 * item[=].item[+].linkId = "ETpro-A-TEXE.1.0"
-* item[=].item[=].text = "Therapieinhalte / Maßnahmen"
-* item[=].item[=].answer.valueString = "Sensomotorisch-perzeptive Behandlung"
+* item[=].item[=].text = "Wurden Therapieinhalte / Maßnahmen erfasst?"
+* item[=].item[=].answer.valueBoolean = true
 
 * item[=].item[+].linkId = "ETpro-A-TEXE.1.1"
 * item[=].item[=].text = "Therapie entsprechend der Ziele?"
@@ -39,5 +39,5 @@ Description: "Beispiel eines ETpro Assessments - Therapiedurchführung - 2. Ther
 * item[=].item[=].answer.valueBoolean = true
 
 * item[=].item[+].linkId = "ETpro-A-TEXE.2.1"
-* item[=].item[=].text = "Falls ja, welche?"
-* item[=].item[=].answer.valueString = "Gleichgewichtsübungen unangemessen."
+* item[=].item[=].text = "Falls ja, wurden diese erfasst?"
+* item[=].item[=].answer.valueBoolean = true
