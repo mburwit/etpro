@@ -27,13 +27,17 @@ Description: "Beispiel eines ETpro Assessments - Daten zur Person"
 * item[=].answer.valueCoding = $loinc#LA33-6 // Ja
 
 * item[+].linkId = "ETpro-A-PD.4"
-* item[=].text = "Kostenaufklärung ist erfolgt / Behandlungs- / Präventionsvertrag liegt vor"
+* item[=].text = "Kostenaufklärung ist erfolgt"
 * item[=].answer.valueCoding = $loinc#LA33-6 // Ja
 
 * item[+].linkId = "ETpro-A-PD.5"
-* item[=].text = "Zuzahlungsbefreiung liegt vor"
-* item[=].answer.valueCoding = $loinc#LA4489-6 // Unbekannt
+* item[=].text = "Sachstand Zuzahlung dokumentiert"
+* item[=].answer.valueBoolean = true
 
 * item[+].linkId = "ETpro-A-PD.6"
-* item[=].text = "Entbindung von der Schweigepflicht liegt vor gegenüber folgenden Personen"
+* item[=].text = "Behandlungs- / Präventionsvertrag liegt vor"
+* item[=].answer.valueCoding = $loinc#LA4489-6 // Unbekannt
+
+* item[+].linkId = "ETpro-A-PD.7"
+* item[=].text = "Entbindung von der Schweigepflicht gegenüber anderen Personen liegt vor"
 * item[=].answer.valueCoding = $loinc#LA33-6 // Ja

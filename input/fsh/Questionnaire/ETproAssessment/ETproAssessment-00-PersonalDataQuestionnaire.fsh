@@ -39,7 +39,7 @@ Description: "Für das ETpro Assessment benötigte Daten zur Person."
 * item[=].answerValueSet = Canonical(YesNoUnknownVS)
 
 * item[+].linkId = "ETpro-A-PD.4"
-* item[=].text = "Kostenaufklärung ist erfolgt / Behandlungs- / Präventionsvertrag liegt vor"
+* item[=].text = "Kostenaufklärung ist erfolgt"
 * item[=].type = $item-type#choice
 * item[=].required = true
 * item[=].repeats = false
@@ -47,15 +47,23 @@ Description: "Für das ETpro Assessment benötigte Daten zur Person."
 * item[=].answerValueSet = Canonical(YesNoUnknownVS)
 
 * item[+].linkId = "ETpro-A-PD.5"
-* item[=].text = "Zuzahlungsbefreiung liegt vor"
+* item[=].text = "Sachstand Zuzahlung dokumentiert"
+* item[=].type = $item-type#boolean
+* item[=].required = true
+* item[=].repeats = false
+* item[=].readOnly = false
+* item[=].initial.valueBoolean = false
+
+* item[+].linkId = "ETpro-A-PD.6"
+* item[=].text = "Behandlungs- / Präventionsvertrag liegt vor"
 * item[=].type = $item-type#choice
 * item[=].required = true
 * item[=].repeats = false
 * item[=].readOnly = false
 * item[=].answerValueSet = Canonical(YesNoUnknownVS)
 
-* item[+].linkId = "ETpro-A-PD.6"
-* item[=].text = "Entbindung von der Schweigepflicht liegt vor gegenüber folgenden Personen"
+* item[+].linkId = "ETpro-A-PD.7"
+* item[=].text = "Entbindung von der Schweigepflicht gegenüber anderen Personen liegt vor"
 * item[=].type = $item-type#choice
 * item[=].required = true
 * item[=].repeats = false
