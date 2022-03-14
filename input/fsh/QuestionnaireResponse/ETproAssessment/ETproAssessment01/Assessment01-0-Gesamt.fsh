@@ -43,3 +43,51 @@ Description: "Beispiel eines ETpro Assessments"
 * item[=].item[=].answer.valueReference = Reference(ETproAssessment01TherapyExecution01)
 * item[=].item[+].linkId = "2.1"
 * item[=].item[=].answer.valueReference = Reference(ETproAssessment01TherapyExecution02)
+
+* item[+].linkId = "3-4"
+* item[=].text = "Evaluation"
+
+// 1. Zwischenevaluation + weiteres Prozedere
+
+* item[=].item[+].linkId = "3.A-4.A"
+* item[=].item[=].text = "Zwischenevaluation"
+
+* item[=].item[=].item[+].linkId = "3.A"
+* item[=].item[=].item[=].text = "Evaluation"
+* item[=].item[=].item[=].item.linkId = "3.A.1"
+* item[=].item[=].item[=].item.answer.valueReference = Reference(ETproAssessment01IntermediateEvaluation01)
+
+* item[=].item[=].item[+].linkId = "4.A"
+* item[=].item[=].item[=].text = "Bestimmung des weiteren Prozederes"
+* item[=].item[=].item[=].item.linkId = "4.A.1"
+* item[=].item[=].item[=].item.answer.valueReference = Reference(ETproAssessment01IntermediateFurtherProceeding01)
+
+// 2. Zwischenevaluation + weiteres Prozedere
+
+* item[=].item[+].linkId = "3.A-4.A"
+* item[=].item[=].text = "Zwischenevaluation"
+
+* item[=].item[=].item[+].linkId = "3.A"
+* item[=].item[=].item[=].text = "Evaluation"
+* item[=].item[=].item[=].item.linkId = "3.A.1"
+* item[=].item[=].item[=].item.answer.valueReference = Reference(ETproAssessment01IntermediateEvaluation02)
+
+* item[=].item[=].item[+].linkId = "4.A"
+* item[=].item[=].item[=].text = "Bestimmung des weiteren Prozederes"
+* item[=].item[=].item[=].item.linkId = "4.A.1"
+* item[=].item[=].item[=].item.answer.valueReference = Reference(ETproAssessment01IntermediateFurtherProceeding02)
+
+// Abschlussevaluation + weiteres Prozedere
+
+* item[=].item[+].linkId = "3.B-4.B"
+* item[=].item[=].text = "Abschlussevaluation"
+
+* item[=].item[=].item[+].linkId = "3.B"
+* item[=].item[=].item[=].text = "Evaluation"
+* item[=].item[=].item[=].item.linkId = "3.B.1"
+* item[=].item[=].item[=].item.answer.valueReference = Reference(ETproAssessment01FinalEvaluation)
+
+* item[=].item[=].item[+].linkId = "4.B"
+* item[=].item[=].item[=].text = "Bestimmung des weiteren Prozederes"
+* item[=].item[=].item[=].item.linkId = "4.B.1"
+* item[=].item[=].item[=].item.answer.valueReference = Reference(ETproAssessment01FinalFurtherProceeding)

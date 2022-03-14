@@ -14,11 +14,14 @@ Prozessdokumentation, welche zu Auswertungs- und Qualitätsmanagement-Zwecken an
   - [D - Therapieplanung](Questionnaire-ETproAssessmentTherapyPlanning.html)
 - 2 Therapiedurchführung
   - [1x je Therapieeinheit](Questionnaire-ETproAssessmentTherapyExecution.html)
-- **3 - Evaluation**
-- [4 - Weiteres Prozedere](Questionnaire-ETproAssessmentFurtherProceeding.html)
+- 3/4 - Evaluation und weiteres Prozedere
+  - [3A - Zwischenevaluation (1x je ZE)](Questionnaire-ETproAssessmentIntermediateEvaluation.html)
+  - [4A - Weiteres Prozedere (1x je ZE)](Questionnaire-ETproAssessmentIntermediateFurtherProceeding.html)
+  - **3B - Abschlussevaluation**
+  - [4B - Weiteres Prozedere](Questionnaire-ETproAssessmentFinalFurtherProceeding.html)
 
 ## Beispiel-Datensatz
 
-- [3 - Evaluation](QuestionnaireResponse-ETproAssessment01Evaluation.html)
+- [3B - Abschlussevaluation](QuestionnaireResponse-ETproAssessment01FinalEvaluation.html)
 
 ## Datenschema

@@ -11,7 +11,7 @@ Prozessdokumentation, welche zu Auswertungs- und Qualitätsmanagement-Zwecken an
   - [A - Screening](QuestionnaireResponse-ETproAssessment01Screening.html)
   - [B - Diagnostik](QuestionnaireResponse-ETproAssessment01Diagnostics.html)
   - [C - Zieldefinition](QuestionnaireResponse-ETproAssessment01GoalDefinition.html)
-  - **D - Therapieplanung**
+  - [D - Therapieplanung](QuestionnaireResponse-ETproAssessment01TherapyPlanning.html)
 - 2 Therapiedurchführung
   - [1. Therapieeinheit](QuestionnaireResponse-ETproAssessment01TherapyExecution01.html)
   - [2. Therapieeinheit](QuestionnaireResponse-ETproAssessment01TherapyExecution02.html)
@@ -20,7 +20,7 @@ Prozessdokumentation, welche zu Auswertungs- und Qualitätsmanagement-Zwecken an
   - [4A - Weiteres Prozedere nach 1. ZE](QuestionnaireResponse-ETproAssessment01IntermediateFurtherProceeding01.html)
   - [3A - 2. Zwischenevaluation](QuestionnaireResponse-ETproAssessment01IntermediateEvaluation02.html)
   - [4A - Weiteres Prozedere nach 2. ZE](QuestionnaireResponse-ETproAssessment01IntermediateFurtherProceeding02.html)
-  - [3B - Abschlussevaluation](QuestionnaireResponse-ETproAssessment01FinalEvaluation.html)
+  - **3B - Abschlussevaluation**
   - [4B - Weiteres Prozedere](QuestionnaireResponse-ETproAssessment01FinalFurtherProceeding.html)
 
 ## Datensatz

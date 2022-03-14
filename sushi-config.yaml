@@ -96,8 +96,10 @@ menu:
     1C - Zieldefinition: Questionnaire-ETproAssessmentGoalDefinition.html
     1D - Therapieplanung: Questionnaire-ETproAssessmentTherapyPlanning.html
     2 - Therapiedurchführung: Questionnaire-ETproAssessmentTherapyExecution.html
-    3 - Evaluation: Questionnaire-ETproAssessmentEvaluation.html
-    4 - Weiteres Prozedere: Questionnaire-ETproAssessmentFurtherProceeding.html
+    3A - Zwischenevaluation: Questionnaire-ETproAssessmentIntermediateEvaluation.html
+    4A - Weiteres Prozedere: Questionnaire-ETproAssessmentIntermediateFurtherProceeding.html
+    3B - Abschlussevaluation: Questionnaire-ETproAssessmentFinalEvaluation.html
+    4B - Weiteres Prozedere: Questionnaire-ETproAssessmentFinalFurtherProceeding.html
   Beispiel Datensatz:
     Übersicht: QuestionnaireResponse-ETproAssessment01.html
     0 - Daten zur Person: QuestionnaireResponse-ETproAssessment01PersonalData.html
@@ -107,8 +109,12 @@ menu:
     1D - Therapieplanung: QuestionnaireResponse-ETproAssessment01TherapyPlanning.html
     2 - 1. Therapieeinheit: QuestionnaireResponse-ETproAssessment01TherapyExecution01.html
     2 - 2. Therapieeinheit: QuestionnaireResponse-ETproAssessment01TherapyExecution02.html
-    3 - Evaluation: QuestionnaireResponse-ETproAssessment01Evaluation.html
-    4 - Weiteres Prozedere: QuestionnaireResponse-ETproAssessment01FurtherProceeding.html
+    3A - 1. Zwischenevaluation: QuestionnaireResponse-ETproAssessment01IntermediateEvaluation01.html
+    4A - 1. Weiteres Prozedere: QuestionnaireResponse-ETproAssessment01IntermediateFurtherProceeding01.html
+    3A - 2. Zwischenevaluation: QuestionnaireResponse-ETproAssessment01IntermediateEvaluation02.html
+    4A - 2. Weiteres Prozedere: QuestionnaireResponse-ETproAssessment01IntermediateFurtherProceeding02.html
+    3B - Abschlussevaluation: QuestionnaireResponse-ETproAssessment01FinalEvaluation.html
+    4B - Weiteres Prozedere: QuestionnaireResponse-ETproAssessment01FinalFurtherProceeding.html
   Downloads:
     Full IG: full-ig.zip
 
@@ -207,8 +213,10 @@ groups:
      - Questionnaire/ETproAssessmentGoalDefinition
      - Questionnaire/ETproAssessmentTherapyPlanning
      - Questionnaire/ETproAssessmentTherapyExecution
-     - Questionnaire/ETproAssessmentEvaluation
-     - Questionnaire/ETproAssessmentFurtherProceeding
+     - Questionnaire/ETproAssessmentIntermediateEvaluation
+     - Questionnaire/ETproAssessmentIntermediateFurtherProceeding
+     - Questionnaire/ETproAssessmentFinalEvaluation
+     - Questionnaire/ETproAssessmentFinalFurtherProceeding
 #
 #
 # The ImplementationGuide resource defines several other properties

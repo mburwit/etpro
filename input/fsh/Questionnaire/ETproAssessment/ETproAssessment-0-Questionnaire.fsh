@@ -65,20 +65,66 @@ Usage: #definition
 * item[=].item.extension.valueCanonical = $etpro-assessment-therapyexecution-questionnaire
 * item[=].item.definition = $etpro-assessment-therapyexecution-questionnaire
 
-* item[+].linkId = "3"
+* item[+].linkId = "3-4"
 * item[=].type = #group
 * item[=].text = "Evaluation"
-* item[=].item.type = #display
-* item[=].item.linkId = "3.1"
-* item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
-* item[=].item.extension.valueCanonical = $etpro-assessment-evaluation-questionnaire
-* item[=].item.definition = $etpro-assessment-evaluation-questionnaire
 
-* item[+].linkId = "4"
-* item[=].type = #group
-* item[=].text = "Weiteres Prozedere"
-* item[=].item.type = #display
-* item[=].item.linkId = "4.1"
-* item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
-* item[=].item.extension.valueCanonical = $etpro-assessment-furtherproceeding-questionnaire
-* item[=].item.definition = $etpro-assessment-furtherproceeding-questionnaire
+* item[=].item[+].linkId = "3.A-4.A"
+* item[=].item[=].type = #group
+* item[=].item[=].text = "Zwischenevaluation"
+* item[=].item[=].repeats = true
+* item[=].item[=].required = false
+
+* item[=].item[=].item[+].linkId = "3.A"
+* item[=].item[=].item[=].type = #group
+* item[=].item[=].item[=].text = "Evaluation"
+* item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].item.type = #display
+* item[=].item[=].item[=].item.linkId = "3.A.1"
+* item[=].item[=].item[=].item.repeats = false
+* item[=].item[=].item[=].item.required = true
+* item[=].item[=].item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
+* item[=].item[=].item[=].item.extension.valueCanonical = $etpro-assessment-intermediate-evaluation-questionnaire
+* item[=].item[=].item[=].item.definition = $etpro-assessment-intermediate-evaluation-questionnaire
+
+* item[=].item[=].item[+].linkId = "4.A"
+* item[=].item[=].item[=].type = #group
+* item[=].item[=].item[=].text = "Bestimmung des weiteren Prozederes"
+* item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].item.type = #display
+* item[=].item[=].item[=].item.linkId = "4.A.1"
+* item[=].item[=].item[=].item.repeats = false
+* item[=].item[=].item[=].item.required = true
+* item[=].item[=].item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
+* item[=].item[=].item[=].item.extension.valueCanonical = $etpro-assessment-intermediate-furtherproceeding-questionnaire
+* item[=].item[=].item[=].item.definition = $etpro-assessment-intermediate-furtherproceeding-questionnaire
+
+* item[=].item[+].linkId = "3.B-4.B"
+* item[=].item[=].type = #group
+* item[=].item[=].text = "Abschlussevaluation"
+* item[=].item[=].repeats = false
+* item[=].item[=].required = false
+
+* item[=].item[=].item[+].linkId = "3.B"
+* item[=].item[=].item[=].type = #group
+* item[=].item[=].item[=].text = "Evaluation"
+* item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].item.type = #display
+* item[=].item[=].item[=].item.linkId = "3.B.1"
+* item[=].item[=].item[=].item.repeats = false
+* item[=].item[=].item[=].item.required = true
+* item[=].item[=].item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
+* item[=].item[=].item[=].item.extension.valueCanonical = $etpro-assessment-final-evaluation-questionnaire
+* item[=].item[=].item[=].item.definition = $etpro-assessment-final-evaluation-questionnaire
+
+* item[=].item[=].item[+].linkId = "4.B"
+* item[=].item[=].item[=].type = #group
+* item[=].item[=].item[=].text = "Bestimmung des weiteren Prozederes"
+* item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].item.type = #display
+* item[=].item[=].item[=].item.linkId = "4.B.1"
+* item[=].item[=].item[=].item.repeats = false
+* item[=].item[=].item[=].item.required = true
+* item[=].item[=].item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
+* item[=].item[=].item[=].item.extension.valueCanonical = $etpro-assessment-final-furtherproceeding-questionnaire
+* item[=].item[=].item[=].item.definition = $etpro-assessment-final-furtherproceeding-questionnaire
