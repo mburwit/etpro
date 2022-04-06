@@ -10,20 +10,25 @@ Usage: #definition
 * item[0].linkId = "0"
 * item[=].type = #group
 * item[=].text = "Daten zur Person"
+* item[=].required = true
 * item[=].item.linkId = "0.1"
 * item[=].item.type = #display
+* item[=].item.required = true
 * item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item.extension.valueCanonical = $etpro-assessment-personaldata-questionnaire
 * item[=].item.definition = $etpro-assessment-personaldata-questionnaire
 
 * item[+].linkId = "1"
 * item[=].type = #group
+* item[=].required = true
 
 * item[=].item[0].linkId = "1A"
 * item[=].item[=].type = #group
 * item[=].item[=].text = "Screening"
-* item[=].item[=].item.type = #display
+* item[=].item[=].required = true
 * item[=].item[=].item.linkId = "1A.1"
+* item[=].item[=].item.type = #display
+* item[=].item[=].item.required = true
 * item[=].item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item[=].item.extension.valueCanonical = $etpro-assessment-screening-questionnaire
 * item[=].item[=].item.definition = $etpro-assessment-screening-questionnaire
@@ -31,8 +36,9 @@ Usage: #definition
 * item[=].item[+].linkId = "1B"
 * item[=].item[=].type = #group
 * item[=].item[=].text = "Diagnostik"
-* item[=].item[=].item.type = #display
 * item[=].item[=].item.linkId = "1B.1"
+* item[=].item[=].item.type = #display
+* item[=].item[=].item.required = true
 * item[=].item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item[=].item.extension.valueCanonical = $etpro-assessment-diagnostics-questionnaire
 * item[=].item[=].item.definition = $etpro-assessment-diagnostics-questionnaire
@@ -40,8 +46,9 @@ Usage: #definition
 * item[=].item[+].linkId = "1C"
 * item[=].item[=].type = #group
 * item[=].item[=].text = "Zieldefinition"
-* item[=].item[=].item.type = #display
 * item[=].item[=].item.linkId = "1C.1"
+* item[=].item[=].item.type = #display
+* item[=].item[=].item.required = true
 * item[=].item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item[=].item.extension.valueCanonical = $etpro-assessment-goaldefinition-questionnaire
 * item[=].item[=].item.definition = $etpro-assessment-goaldefinition-questionnaire
@@ -49,8 +56,9 @@ Usage: #definition
 * item[=].item[+].linkId = "1D"
 * item[=].item[=].type = #group
 * item[=].item[=].text = "Therapieplanung"
-* item[=].item[=].item.type = #display
 * item[=].item[=].item.linkId = "1D.1"
+* item[=].item[=].item.type = #display
+* item[=].item[=].item.required = true
 * item[=].item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item[=].item.extension.valueCanonical = $etpro-assessment-therapyplanning-questionnaire
 * item[=].item[=].item.definition = $etpro-assessment-therapyplanning-questionnaire
@@ -60,6 +68,7 @@ Usage: #definition
 * item[=].text = "Therapiedurchführung"
 * item[=].item.type = #display
 * item[=].item.linkId = "2.1"
+* item[=].required = true
 * item[=].item.repeats = true
 * item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item.extension.valueCanonical = $etpro-assessment-therapyexecution-questionnaire

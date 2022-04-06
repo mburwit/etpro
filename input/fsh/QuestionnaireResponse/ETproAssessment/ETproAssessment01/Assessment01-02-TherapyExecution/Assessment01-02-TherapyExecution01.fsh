@@ -24,12 +24,8 @@ Description: "Beispiel eines ETpro Assessments - Therapiedurchführung - 1. Ther
 * item[=].item[=].answer.valueBoolean = true
 
 * item[=].item[+].linkId = "ETpro-A-TEXE.1.1"
-* item[=].item[=].text = "Therapie entsprechend der Ziele?"
+* item[=].item[=].text = "Status der Zielerreichung dokumentiert?"
 * item[=].item[=].answer.valueBoolean = true
-
-* item[=].item[+].linkId = "ETpro-A-TEXE.1.2"
-* item[=].item[=].text = "Anpassung der Therapie notwendig?"
-* item[=].item[=].answer.valueBoolean = false
 
 * item[+].linkId = "ETpro-A-TEXE.2"
 * item[=].text = "Besonderheiten / kritische Situationen"

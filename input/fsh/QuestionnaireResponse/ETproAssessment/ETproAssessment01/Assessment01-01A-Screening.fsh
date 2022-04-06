@@ -36,9 +36,5 @@ Description: "Beispiel eines ETpro Assessments - Screening"
 * item[=].answer.valueCoding = $etpro-jabedingtnein#YES   // Ja
 
 * item[+].linkId = "ETpro-A-SC.6"
-* item[=].text = "Behandlungsbeginn"
-* item[=].answer.valueDate = "2021-11-04"
-
-* item[+].linkId = "ETpro-A-SC.7"
 * item[=].text = "Verantwortliche:r Ergotherapeut:in angegeben"
 * item[=].answer.valueBoolean = true

@@ -55,13 +55,6 @@ Description: "Dokumentation des ergotherapeutischen Screenings gemäß des ETpro
 * item[=].answerValueSet = Canonical(YesNoConditionalVS)
 
 * item[+].linkId = "ETpro-A-SC.6"
-* item[=].text = "Behandlungsbeginn"
-* item[=].type = $item-type#date
-* item[=].required = false
-* item[=].repeats = false
-* item[=].readOnly = false
-
-* item[+].linkId = "ETpro-A-SC.7"
 * item[=].text = "Verantwortliche:r Ergotherapeut:in angegeben"
 * item[=].type = $item-type#boolean
 * item[=].required = true

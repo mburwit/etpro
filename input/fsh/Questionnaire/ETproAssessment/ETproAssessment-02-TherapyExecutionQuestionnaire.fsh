@@ -28,18 +28,12 @@ Description: "Dokumentation der Durchführung der ergotherapeutischen Therapie g
 * item[=].item[=].initial.valueBoolean = false
 
 * item[=].item[+].linkId = "ETpro-A-TEXE.1.1"
-* item[=].item[=].text = "Therapie entsprechend der Ziele?"
+* item[=].item[=].text = "Status der Zielerreichung dokumentiert?"
 * item[=].item[=].type = $item-type#boolean
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = false
-
-* item[=].item[+].linkId = "ETpro-A-TEXE.1.2"
-* item[=].item[=].text = "Anpassung der Therapie notwendig?"
-* item[=].item[=].type = $item-type#boolean
-* item[=].item[=].required = true
-* item[=].item[=].repeats = false
-* item[=].item[=].readOnly = false
+* item[=].item[=].initial.valueBoolean = false
 
 * item[+].linkId = "ETpro-A-TEXE.2"
 * item[=].text = "Besonderheiten / kritische Situationen"
