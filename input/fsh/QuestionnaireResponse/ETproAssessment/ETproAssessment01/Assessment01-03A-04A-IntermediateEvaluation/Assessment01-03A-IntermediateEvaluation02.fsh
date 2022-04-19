@@ -11,8 +11,8 @@ Description: "Beispiel eines ETpro Assessments - Zwischenevaluation"
 * author = Reference(ETproBeispielPraxis)
 
 * item[+].linkId = "ETpro-A-IntEval.0"
-* item[=].text = "Geplante Zwischenevaluation?"
-* item[=].answer.valueBoolean = true
+* item[=].text = "Anlass der Zwischenevaluation?"
+* item[=].answer.valueCoding = $etpro-intermediate-evaluation-type#PLANNED    // geplant
 
 * item[+].linkId = "ETpro-A-IntEval.1"
 * item[=].text = "Haben Standardisierte Test- und Messverfahren / Assessments stattgefunden?"

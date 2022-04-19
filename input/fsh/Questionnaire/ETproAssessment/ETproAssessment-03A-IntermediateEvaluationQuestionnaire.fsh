@@ -8,11 +8,12 @@ Description: "Dokumentation einer Zwischenevaluation einer ergotherapeutischen T
 * name = "ETproAssessmentIntermediateEvaluation"
 
 * item[+].linkId = "ETpro-A-IntEval.0"
-* item[=].text = "Geplante Zwischenevaluation?"
-* item[=].type = $item-type#boolean
+* item[=].text = "Anlass der Zwischenevaluation?"
+* item[=].type = $item-type#choice
 * item[=].required = true
 * item[=].repeats = false
 * item[=].readOnly = false
+* item[=].answerValueSet = Canonical(IntermediateEvaluationTypeVS)
 
 * item[+].linkId = "ETpro-A-IntEval.1"
 * item[=].text = "Haben Standardisierte Test- und Messverfahren / Assessments stattgefunden?"
