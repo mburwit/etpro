@@ -27,8 +27,8 @@ Description: "Beispiel eines ETpro Assessments - Therapieplanung"
 * item[=].answer[+].valueCoding = $etpro-therapiekontext#TC_HOME    // Hausbesuch (zu Hause / Pflegeeinrichtung)
 
 * item[+].linkId = "ETpro-A-TPLAN.4"
-* item[=].text = "Therapieform erfasst?"
-* item[=].answer.valueBoolean = true
+* item[=].text = "Therapieform"
+* item[=].answer[+].valueCoding = $etpro-therapieform#TF_SINGLE     // Einzeltherapie
 
 * item[+].linkId = "ETpro-A-TPLAN.5"
 * item[=].text = "Ergotherapeutische Interventionen zur Zielerreichung erfasst?"

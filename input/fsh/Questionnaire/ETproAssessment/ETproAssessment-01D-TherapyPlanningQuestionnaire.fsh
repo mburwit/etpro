@@ -37,15 +37,15 @@ Description: "Dokumentation der Planung der ergotherapeutischen Therapie gemäß
 * item[=].required = true
 * item[=].repeats = false
 * item[=].readOnly = false
-* item[=].answerValueSet = Canonical(TherapiekontextVS)
+* item[=].answerValueSet = Canonical(TherapyContextVS)
 
 * item[+].linkId = "ETpro-A-TPLAN.4"
-* item[=].text = "Therapieform erfasst?"
-* item[=].type = $item-type#boolean
+* item[=].text = "Therapieform"
+* item[=].type = $item-type#choice
 * item[=].required = true
 * item[=].repeats = false
 * item[=].readOnly = false
-* item[=].initial.valueBoolean = false
+* item[=].answerValueSet = Canonical(TherapyFormVS)
 
 * item[+].linkId = "ETpro-A-TPLAN.5"
 * item[=].text = "Ergotherapeutische Interventionen zur Zielerreichung erfasst?"
