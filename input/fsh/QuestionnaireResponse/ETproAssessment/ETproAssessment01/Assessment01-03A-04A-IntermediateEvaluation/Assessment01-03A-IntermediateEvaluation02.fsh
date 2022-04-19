@@ -16,7 +16,7 @@ Description: "Beispiel eines ETpro Assessments - Zwischenevaluation"
 
 // Ziel 1
 * item[+].linkId = "ETpro-A-IntEval.1"
-* item[=].text = "Zieldefinition und -bewertung"
+* item[=].text = "Zielerreichung"
 
 * item[=].item[+].linkId = "ETpro-A-IntEval.1.0"
 * item[=].item[=].text = "Ziel ID"
@@ -30,7 +30,7 @@ Description: "Beispiel eines ETpro Assessments - Zwischenevaluation"
 
 // Ziel 2
 * item[+].linkId = "ETpro-A-IntEval.1"
-* item[=].text = "Zieldefinition und -bewertung"
+* item[=].text = "Zielerreichung"
 
 * item[=].item[+].linkId = "ETpro-A-IntEval.1.0"
 * item[=].item[=].text = "Ziel ID"
@@ -42,18 +42,18 @@ Description: "Beispiel eines ETpro Assessments - Zwischenevaluation"
 * item[=].item[=].text = "Zufriedenheit Klient:in"
 * item[=].item[=].answer.valueInteger = 4
 
-* item[+].linkId = "ETpro-A-IntEval.1"
+* item[+].linkId = "ETpro-A-IntEval.2"
 * item[=].text = "Haben Standardisierte Test- und Messverfahren / Assessments stattgefunden?"
 * item[=].answer.valueBoolean = false
 
-* item[+].linkId = "ETpro-A-IntEval.2"
+* item[+].linkId = "ETpro-A-IntEval.3"
 * item[=].text = "Wurde eine Zusammenfassung der Zwischenevaluation dokumentiert?"
 * item[=].answer.valueBoolean = true
 
-* item[+].linkId = "ETpro-A-IntEval.3"
+* item[+].linkId = "ETpro-A-IntEval.4"
 * item[=].text = "Ergebnis der Zwischenevaluation"
 * item[=].answer.valueCoding = $etpro-result-intermediate-evaluation#RES_GOALS_OPEN     // es sind noch weitere Ziele offen
 
-* item[+].linkId = "ETpro-A-IntEval.4"
+* item[+].linkId = "ETpro-A-IntEval.5"
 * item[=].text = "Wurde die Zwischenevaluation gemeinsam mit Klient:in besprochen?"
 * item[=].answer.valueBoolean = true

@@ -16,7 +16,7 @@ Description: "Dokumentation einer Zwischenevaluation einer ergotherapeutischen T
 * item[=].answerValueSet = Canonical(IntermediateEvaluationTypeVS)
 
 * item[+].linkId = "ETpro-A-IntEval.1"
-* item[=].text = "Zielbewertung"
+* item[=].text = "Zielerreichung"
 * item[=].type = #group
 * item[=].repeats = true
 * item[=].required = false
@@ -35,7 +35,7 @@ Description: "Dokumentation einer Zwischenevaluation einer ergotherapeutischen T
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = false
 
-* item[=].item[+].linkId = "ETpro-A-GOAL.1.7"
+* item[=].item[+].linkId = "ETpro-A-FinalEval.1.7"
 * item[=].item[=].text = "Zufriedenheit Klient:in"
 * item[=].item[=].type = $item-type#integer
 * item[=].item[=].required = false
