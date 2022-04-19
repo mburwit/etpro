@@ -14,18 +14,20 @@ Description: "Beispiel eines ETpro Assessments - Zwischenevaluation"
 * item[=].text = "Anlass der Zwischenevaluation?"
 * item[=].answer.valueCoding = $etpro-intermediate-evaluation-type#EVENT_RELATED    // anlassbezogen
 
-* item[+].linkId = "ETpro-A-IntEval.1"
+// keine Zielbewertung dokumentiert
+
+* item[+].linkId = "ETpro-A-IntEval.2"
 * item[=].text = "Haben Standardisierte Test- und Messverfahren / Assessments stattgefunden?"
 * item[=].answer.valueBoolean = true
 
-* item[+].linkId = "ETpro-A-IntEval.2"
+* item[+].linkId = "ETpro-A-IntEval.3"
 * item[=].text = "Wurde eine Zusammenfassung der Zwischenevaluation dokumentiert?"
 * item[=].answer.valueBoolean = true
 
-* item[+].linkId = "ETpro-A-IntEval.3"
+* item[+].linkId = "ETpro-A-IntEval.4"
 * item[=].text = "Ergebnis der Zwischenevaluation"
 * item[=].answer.valueCoding = $etpro-result-intermediate-evaluation#RES_REV_ACTIONS    // Maßnahmen müssen angepasst werden
 
-* item[+].linkId = "ETpro-A-IntEval.4"
+* item[+].linkId = "ETpro-A-IntEval.5"
 * item[=].text = "Wurde die Zwischenevaluation gemeinsam mit Klient:in besprochen?"
 * item[=].answer.valueBoolean = true

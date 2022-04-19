@@ -14,6 +14,34 @@ Description: "Beispiel eines ETpro Assessments - Zwischenevaluation"
 * item[=].text = "Anlass der Zwischenevaluation?"
 * item[=].answer.valueCoding = $etpro-intermediate-evaluation-type#PLANNED    // geplant
 
+// Ziel 1
+* item[+].linkId = "ETpro-A-IntEval.1"
+* item[=].text = "Zieldefinition und -bewertung"
+
+* item[=].item[+].linkId = "ETpro-A-IntEval.1.0"
+* item[=].item[=].text = "Ziel ID"
+* item[=].item[=].answer.valueInteger = 1
+* item[=].item[+].linkId = "ETpro-A-IntEval.1.6"
+* item[=].item[=].text = "Formale Ausführung"
+* item[=].item[=].answer.valueInteger = 7
+* item[=].item[+].linkId = "ETpro-A-IntEval.1.7"
+* item[=].item[=].text = "Zufriedenheit Klient:in"
+* item[=].item[=].answer.valueInteger = 5
+
+// Ziel 2
+* item[+].linkId = "ETpro-A-IntEval.1"
+* item[=].text = "Zieldefinition und -bewertung"
+
+* item[=].item[+].linkId = "ETpro-A-IntEval.1.0"
+* item[=].item[=].text = "Ziel ID"
+* item[=].item[=].answer.valueInteger = 2
+* item[=].item[+].linkId = "ETpro-A-IntEval.1.6"
+* item[=].item[=].text = "Formale Ausführung"
+* item[=].item[=].answer.valueInteger = 3
+* item[=].item[+].linkId = "ETpro-A-IntEval.1.7"
+* item[=].item[=].text = "Zufriedenheit Klient:in"
+* item[=].item[=].answer.valueInteger = 4
+
 * item[+].linkId = "ETpro-A-IntEval.1"
 * item[=].text = "Haben Standardisierte Test- und Messverfahren / Assessments stattgefunden?"
 * item[=].answer.valueBoolean = false
