@@ -40,11 +40,12 @@ Description: "Dokumentation des ergotherapeutischen Screenings gemäß des ETpro
 * item[=].initial.valueBoolean = false
 
 * item[+].linkId = "ETpro-A-SC.4"
-* item[=].text = "Anliegen / Erwartungen des Klienten"
-* item[=].type = $item-type#string
+* item[=].text = "Anliegen / Erwartungen des Klienten dokumentiert?"
+* item[=].type = $item-type#boolean
 * item[=].required = false
 * item[=].repeats = false
 * item[=].readOnly = false
+* item[=].initial.valueBoolean = false
 
 * item[+].linkId = "ETpro-A-SC.5"
 * item[=].text = "Warn- und Ausschlusskriterien:"

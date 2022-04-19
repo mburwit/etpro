@@ -28,8 +28,8 @@ Description: "Beispiel eines ETpro Assessments - Screening"
 * item[=].answer.valueBoolean = true
 
 * item[+].linkId = "ETpro-A-SC.4"
-* item[=].text = "Anliegen / Erwartungen des Klienten"
-* item[=].answer.valueString = "Wieder durchschlafen können"
+* item[=].text = "Anliegen / Erwartungen des Klienten dokumentiert?"
+* item[=].answer.valueBoolean = true
 
 * item[+].linkId = "ETpro-A-SC.5"
 * item[=].text = "Warn- und Ausschlusskriterien:"
