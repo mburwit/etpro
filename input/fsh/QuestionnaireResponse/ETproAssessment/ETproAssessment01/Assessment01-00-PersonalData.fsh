@@ -19,8 +19,8 @@ Description: "Beispiel eines ETpro Assessments - Daten zur Person"
 * item[=].answer.valueCoding = $gender-amtlich-de#W // weiblich
 
 * item[+].linkId = "ETpro-A-PD.2"
-* item[=].text = "gesetzliche Betreuung durch bzw. Sorgeberechtigte"
-* item[=].answer.valueCoding = $loinc#LA32-8 // Nein
+* item[=].text = "gesetzliche Betreuung bzw. Sorgeberechtigte dokumentiert"
+* item[=].answer.valueBoolean = true // Ja
 
 * item[+].linkId = "ETpro-A-PD.3"
 * item[=].text = "DSGVO: notwendige Informationen und Unterschriften liegen vor"

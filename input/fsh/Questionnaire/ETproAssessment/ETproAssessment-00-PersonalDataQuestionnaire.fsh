@@ -23,12 +23,12 @@ Description: "Für das ETpro Assessment benötigte Daten zur Person."
 * item[=].answerValueSet = Canonical(GenderVS)
 
 * item[+].linkId = "ETpro-A-PD.2"
-* item[=].text = "gesetzliche Betreuung durch bzw. Sorgeberechtigte"
-* item[=].type = $item-type#choice
+* item[=].text = "gesetzliche Betreuung bzw. Sorgeberechtigte dokumentiert"
+* item[=].type = $item-type#boolean
 * item[=].required = true
 * item[=].repeats = false
 * item[=].readOnly = false
-* item[=].answerValueSet = Canonical(YesNoUnknownVS)
+* item[=].initial.valueBoolean = false
 
 * item[+].linkId = "ETpro-A-PD.3"
 * item[=].text = "DSGVO: notwendige Informationen und Unterschriften liegen vor"
