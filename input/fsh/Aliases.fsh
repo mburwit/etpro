@@ -73,6 +73,8 @@ Alias: $etpro-assessment-final-evaluation-questionnaire = https://dve.info/ergot
 Alias: $etpro-assessment-final-furtherproceeding-questionnaire = https://dve.info/ergotherapie/etpro/fhir/Questionnaire/ETproAssessmentFinalFurtherProceeding
 
 // ETpro Terminology
+Alias: $etpro-diagnosegruppe = https://dve.info/ergotherapie/etpro/fhir/CodeSystem/DiagnosisGroup
+Alias: $etpro-diagnosegruppe-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/DiagnosisGroupVS
 Alias: $etpro-further-final-proceeding = https://dve.info/ergotherapie/etpro/fhir/CodeSystem/FurtherFinalProceeding
 Alias: $etpro-further-final-proceeding-vs = https://dve.info/ergotherapie/etpro/fhir/ValueSet/FurtherFinalProceedingVS
 Alias: $etpro-further-intermediate-proceeding = https://dve.info/ergotherapie/etpro/fhir/CodeSystem/FurtherIntermediateProceeding
