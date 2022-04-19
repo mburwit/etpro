@@ -32,7 +32,7 @@ Description: "Beispiel eines ETpro Assessments - Therapiedurchführung - 2. Ther
 
 * item[=].item[+].linkId = "ETpro-A-TEXE.2.0"
 * item[=].item[=].text = "Gab es Besonderheiten / kritische Situationen?"
-* item[=].item[=].answer.valueBoolean = true
+* item[=].item[=].answer.valueCoding = $loinc#LA33-6 // Ja
 
 * item[=].item[+].linkId = "ETpro-A-TEXE.2.1"
 * item[=].item[=].text = "Falls ja, wurden diese erfasst?"
