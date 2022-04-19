@@ -35,7 +35,7 @@ Description: "Dokumentation einer Zwischenevaluation einer ergotherapeutischen T
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = false
 
-* item[=].item[+].linkId = "ETpro-A-FinalEval.1.7"
+* item[=].item[+].linkId = "ETpro-A-IntEval.1.7"
 * item[=].item[=].text = "Zufriedenheit Klient:in"
 * item[=].item[=].type = $item-type#integer
 * item[=].item[=].required = false

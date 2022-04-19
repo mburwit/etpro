@@ -47,13 +47,17 @@ Description: "Beispiel eines ETpro Assessments - Abschlussevaluation"
 * item[=].answer.valueBoolean = true
 
 * item[+].linkId = "ETpro-A-FinalEval.3"
+* item[=].text = "Anzahl vollständig dokumentierter ICF Bewertungen?"
+* item[=].answer.valueInteger = 2
+
+* item[+].linkId = "ETpro-A-FinalEval.4"
 * item[=].text = "Wurde eine Zusammenfassung der Abschlussevaluation dokumentiert?"
 * item[=].answer.valueBoolean = true
 
-* item[+].linkId = "ETpro-A-FinalEval.4"
+* item[+].linkId = "ETpro-A-FinalEval.5"
 * item[=].text = "Ergebnis der Abschlussevaluation"
 * item[=].answer.valueCoding = $etpro-result-final-evaluation#RES_GOALS_NOT_OK    // die aktuellen Ziele wurden noch nicht zufriedenstellend erreicht
 
-* item[+].linkId = "ETpro-A-FinalEval.5"
+* item[+].linkId = "ETpro-A-FinalEval.6"
 * item[=].text = "Wurde die Abschlussevaluation gemeinsam mit Klient:in besprochen?"
 * item[=].answer.valueBoolean = true
