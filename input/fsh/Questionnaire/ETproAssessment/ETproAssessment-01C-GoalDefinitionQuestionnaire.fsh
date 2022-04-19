@@ -7,6 +7,21 @@ Description: "Dokumentation der ergotherapeutischen Zieldefinition gemäß des E
 * url = $etpro-assessment-goaldefinition-questionnaire
 * name = "ETproAssessmentGoalDefinition"
 
+// Constraints
+// maximal 3 Ziele
+* extension[+].url = $extension-questionnaire-constraint
+* extension[=].extension[+].url = "key"
+* extension[=].extension[=].valueId = "ETpro-A-GOAL.001"
+* extension[=].extension[+].url = "severity"
+* extension[=].extension[=].valueCode = $constraint-severity#error
+* extension[=].extension[+].url = "expression"
+* extension[=].extension[=].valueString = "item.where(linkId='ETpro-A-GOAL.1').count() <= 3"
+* extension[=].extension[+].url = "human"
+* extension[=].extension[=].valueString = "Es können maximal 3 Ziele definiert werden!"
+* extension[=].extension[+].url = "location"
+* extension[=].extension[=].valueString = "item.where(linkId='ETpro-A-GOAL.1')"
+
+// übergeordnetes Teilhabeziel erfasst
 * item[+].linkId = "ETpro-A-GOAL.0"
 * item[=].text = "Übergeordnetes Teilhabeziel erfasst?"
 * item[=].type = $item-type#boolean
@@ -15,6 +30,7 @@ Description: "Dokumentation der ergotherapeutischen Zieldefinition gemäß des E
 * item[=].readOnly = false
 * item[=].initial.valueBoolean = false
 
+// Gruppe - Zieldefinition und -bewertung
 * item[+].linkId = "ETpro-A-GOAL.1"
 * item[=].text = "Zieldefinition und -bewertung"
 * item[=].type = #group
@@ -74,6 +90,14 @@ Description: "Dokumentation der ergotherapeutischen Zieldefinition gemäß des E
 * item[=].item[=].required = false
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = false
+* item[=].item[=].extension[+].url = $extension-questionnaire-minValue
+* item[=].item[=].extension[=].valueInteger = 1
+* item[=].item[=].extension[=].valueInteger.extension.url = $extension-questionnaire-validationMessage
+* item[=].item[=].extension[=].valueInteger.extension.valueString = "Wert der Zielerreichung muss zwischen 1 (in keiner Weise möglich) und 10 (vollständig möglich) liegen!"
+* item[=].item[=].extension[+].url = $extension-questionnaire-maxValue
+* item[=].item[=].extension[=].valueInteger = 10
+* item[=].item[=].extension[=].valueInteger.extension.url = $extension-questionnaire-validationMessage
+* item[=].item[=].extension[=].valueInteger.extension.valueString = "Wert der Zielerreichung muss zwischen 1 (in keiner Weise möglich) und 10 (vollständig möglich) liegen!"
 
 * item[=].item[+].linkId = "ETpro-A-GOAL.1.7"
 * item[=].item[=].text = "Zufriedenheit Klient:in"
@@ -81,6 +105,14 @@ Description: "Dokumentation der ergotherapeutischen Zieldefinition gemäß des E
 * item[=].item[=].required = false
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = false
+* item[=].item[=].extension[+].url = $extension-questionnaire-minValue
+* item[=].item[=].extension[=].valueInteger = 1
+* item[=].item[=].extension[=].valueInteger.extension.url = $extension-questionnaire-validationMessage
+* item[=].item[=].extension[=].valueInteger.extension.valueString = "Wert der Zielerreichung muss zwischen 1 (in keiner Weise möglich) und 10 (vollständig möglich) liegen!"
+* item[=].item[=].extension[+].url = $extension-questionnaire-maxValue
+* item[=].item[=].extension[=].valueInteger = 10
+* item[=].item[=].extension[=].valueInteger.extension.url = $extension-questionnaire-validationMessage
+* item[=].item[=].extension[=].valueInteger.extension.valueString = "Wert der Zielerreichung muss zwischen 1 (in keiner Weise möglich) und 10 (vollständig möglich) liegen!"
 
 * item[+].linkId = "ETpro-A-GOAL.2"
 * item[=].text = "Wurden die Ziele gemeinsam mit Klient:in vereinbart?"
