@@ -47,14 +47,6 @@ Description: "Für das ETpro Assessment benötigte Daten zur Person."
 * item[=].answerValueSet = Canonical(YesNoUnknownVS)
 
 * item[+].linkId = "ETpro-A-PD.5"
-* item[=].text = "Sachstand Zuzahlung dokumentiert"
-* item[=].type = $item-type#boolean
-* item[=].required = true
-* item[=].repeats = false
-* item[=].readOnly = false
-* item[=].initial.valueBoolean = false
-
-* item[+].linkId = "ETpro-A-PD.6"
 * item[=].text = "Behandlungs- / Präventionsvertrag liegt vor"
 * item[=].type = $item-type#choice
 * item[=].required = true
@@ -62,7 +54,7 @@ Description: "Für das ETpro Assessment benötigte Daten zur Person."
 * item[=].readOnly = false
 * item[=].answerValueSet = Canonical(YesNoUnknownVS)
 
-* item[+].linkId = "ETpro-A-PD.7"
+* item[+].linkId = "ETpro-A-PD.6"
 * item[=].text = "Entbindung von der Schweigepflicht gegenüber anderen Personen liegt vor"
 * item[=].type = $item-type#choice
 * item[=].required = true
