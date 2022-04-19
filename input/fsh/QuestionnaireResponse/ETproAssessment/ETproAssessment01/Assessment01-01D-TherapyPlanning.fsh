@@ -23,8 +23,8 @@ Description: "Beispiel eines ETpro Assessments - Therapieplanung"
 * item[=].answer.valueBoolean = false
 
 * item[+].linkId = "ETpro-A-TPLAN.3"
-* item[=].text = "Therapiekontext erfasst?"
-* item[=].answer.valueBoolean = true
+* item[=].text = "Therapiekontext"
+* item[=].answer[+].valueCoding = $etpro-therapiekontext#TC_HOME    // Hausbesuch (zu Hause / Pflegeeinrichtung)
 
 * item[+].linkId = "ETpro-A-TPLAN.4"
 * item[=].text = "Therapieform erfasst?"

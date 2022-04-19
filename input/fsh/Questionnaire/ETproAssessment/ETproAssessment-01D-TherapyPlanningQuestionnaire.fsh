@@ -32,12 +32,12 @@ Description: "Dokumentation der Planung der ergotherapeutischen Therapie gemäß
 * item[=].initial.valueBoolean = false
 
 * item[+].linkId = "ETpro-A-TPLAN.3"
-* item[=].text = "Therapiekontext erfasst?"
-* item[=].type = $item-type#boolean
+* item[=].text = "Therapiekontext"
+* item[=].type = $item-type#choice
 * item[=].required = true
 * item[=].repeats = false
 * item[=].readOnly = false
-* item[=].initial.valueBoolean = false
+* item[=].answerValueSet = Canonical(TherapiekontextVS)
 
 * item[+].linkId = "ETpro-A-TPLAN.4"
 * item[=].text = "Therapieform erfasst?"
