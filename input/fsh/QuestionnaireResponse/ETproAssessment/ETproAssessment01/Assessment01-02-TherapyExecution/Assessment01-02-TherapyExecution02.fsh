@@ -1,5 +1,5 @@
 Instance: ETproAssessment01TherapyExecution02
-InstanceOf: QuestionnaireResponse
+InstanceOf: SDCQuestionnaireResponse
 Usage: #example
 Title: "Beispiel-Assessment - Therapiedurchführung - 2. Therapieeinheit"
 Description: "Beispiel eines ETpro Assessments - Therapiedurchführung - 2. Therapieeinheit"

@@ -1,11 +1,15 @@
 Instance: ETproAssessmentDiagnostics
-InstanceOf: Questionnaire
+InstanceOf: SDCModularQuestionnaire
 Usage: #definition
 Title: "ETpro Assessment - Diagnostik"
 Description: "Dokumentation der ergotherapeutischen Diagnostik gemäß des ETpro Prozessstandards"
 * insert QuestionnaireMetadata
 * url = $etpro-assessment-diagnostics-questionnaire
 * name = "ETproAssessmentDiagnostics"
+* title = "ETpro Assessment - Diagnostik"
+* status = $publication-status#active
+* extension.url = $extension-sdc-questionnaire-assemble-expectation
+* extension.valueCode = $extension-sdc-questionnaire-assemble-expectation-cs#assemble-child
 
 * item[+].linkId = "ETpro-A-DIAG.0"
 * item[=].text = "Risikofaktoren"

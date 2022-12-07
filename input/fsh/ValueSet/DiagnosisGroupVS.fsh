@@ -6,4 +6,5 @@ Description: "Diagnosegruppen der Ergotherapie"
 * ^version = "1.0.0"
 * ^name = "DiagnosegruppeVS"
 * ^status = $publication-status#active
+* ^experimental = true
 * include codes from system $etpro-diagnosegruppe

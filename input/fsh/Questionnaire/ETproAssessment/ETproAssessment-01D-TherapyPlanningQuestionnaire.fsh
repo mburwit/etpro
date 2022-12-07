@@ -1,11 +1,15 @@
 Instance: ETproAssessmentTherapyPlanning
-InstanceOf: Questionnaire
+InstanceOf: SDCModularQuestionnaire
 Usage: #definition
 Title: "ETpro Assessment - Therapieplanung"
 Description: "Dokumentation der Planung der ergotherapeutischen Therapie gemäß des ETpro Prozessstandards"
 * insert QuestionnaireMetadata
 * url = $etpro-assessment-therapyplanning-questionnaire
 * name = "ETproAssessmentTherapyPlanning"
+* title = "ETpro Assessment - Therapieplanung"
+* status = $publication-status#active
+* extension.url = $extension-sdc-questionnaire-assemble-expectation
+* extension.valueCode = $extension-sdc-questionnaire-assemble-expectation-cs#assemble-child
 
 * item[+].linkId = "ETpro-A-TPLAN.0"
 * item[=].text = "Heilmittel / Therapiemaßnahme"

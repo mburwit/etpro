@@ -1,11 +1,15 @@
 Instance: ETproAssessment
-InstanceOf: Questionnaire
+InstanceOf: SDCModularQuestionnaire
 Title: "ETpro Assessment"
 Description: "QM-Datensatz einer Ergotherapeutischen Leistung zum zwecke des Qualitäts-Assessment und zur Übermittlung an den DVE gemäß ETpro"
 Usage: #definition
 * insert QuestionnaireMetadata
 * url = $etpro-assessment-questionnaire
 * name = "ETproAssessment"
+* title = "ETpro Assessment"
+* status = $publication-status#active
+* extension.url = $extension-sdc-questionnaire-assemble-expectation
+* extension.valueCode = $extension-sdc-questionnaire-assemble-expectation-cs#assemble-root
 
 * item[0].linkId = "0"
 * item[=].type = #group
@@ -13,10 +17,10 @@ Usage: #definition
 * item[=].required = true
 * item[=].item.linkId = "0.1"
 * item[=].item.type = #display
-* item[=].item.required = true
+* item[=].item.text = "Unable to resolve 'personal-data' sub-questionnaire"
 * item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item.extension.valueCanonical = $etpro-assessment-personaldata-questionnaire
-* item[=].item.definition = $etpro-assessment-personaldata-questionnaire
+* item[=].definition = $etpro-assessment-personaldata-questionnaire
 
 * item[+].linkId = "1"
 * item[=].type = #group
@@ -28,7 +32,7 @@ Usage: #definition
 * item[=].item[=].required = true
 * item[=].item[=].item.linkId = "1A.1"
 * item[=].item[=].item.type = #display
-* item[=].item[=].item.required = true
+* item[=].item[=].item.text = "Unable to resolve 'screening' sub-questionnaire"
 * item[=].item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item[=].item.extension.valueCanonical = $etpro-assessment-screening-questionnaire
 * item[=].item[=].item.definition = $etpro-assessment-screening-questionnaire
@@ -38,7 +42,7 @@ Usage: #definition
 * item[=].item[=].text = "Diagnostik"
 * item[=].item[=].item.linkId = "1B.1"
 * item[=].item[=].item.type = #display
-* item[=].item[=].item.required = true
+* item[=].item[=].item.text = "Unable to resolve 'diagnostics' sub-questionnaire"
 * item[=].item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item[=].item.extension.valueCanonical = $etpro-assessment-diagnostics-questionnaire
 * item[=].item[=].item.definition = $etpro-assessment-diagnostics-questionnaire
@@ -48,7 +52,7 @@ Usage: #definition
 * item[=].item[=].text = "Zieldefinition"
 * item[=].item[=].item.linkId = "1C.1"
 * item[=].item[=].item.type = #display
-* item[=].item[=].item.required = true
+* item[=].item[=].item.text = "Unable to resolve 'goal-definition' sub-questionnaire"
 * item[=].item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item[=].item.extension.valueCanonical = $etpro-assessment-goaldefinition-questionnaire
 * item[=].item[=].item.definition = $etpro-assessment-goaldefinition-questionnaire
@@ -58,7 +62,7 @@ Usage: #definition
 * item[=].item[=].text = "Therapieplanung"
 * item[=].item[=].item.linkId = "1D.1"
 * item[=].item[=].item.type = #display
-* item[=].item[=].item.required = true
+* item[=].item[=].item.text = "Unable to resolve 'therapy-planning' sub-questionnaire"
 * item[=].item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item[=].item.extension.valueCanonical = $etpro-assessment-therapyplanning-questionnaire
 * item[=].item[=].item.definition = $etpro-assessment-therapyplanning-questionnaire
@@ -66,10 +70,14 @@ Usage: #definition
 * item[+].linkId = "2"
 * item[=].type = #group
 * item[=].text = "Therapiedurchführung"
+* item[=].repeats = true
+* item[=].extension.url = $variable
+* item[=].extension.valueExpression.name = "linkIdPrefix"
+* item[=].extension.valueExpression.language = $expression-language#text/fhirpath
+* item[=].extension.valueExpression.expression = "'therapy.'"
 * item[=].item.type = #display
+* item[=].item.text = "Unable to resolve 'therapy-execution' sub-questionnaire"
 * item[=].item.linkId = "2.1"
-* item[=].required = true
-* item[=].item.repeats = true
 * item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item.extension.valueCanonical = $etpro-assessment-therapyexecution-questionnaire
 * item[=].item.definition = $etpro-assessment-therapyexecution-questionnaire
@@ -82,6 +90,10 @@ Usage: #definition
 * item[=].item[=].type = #group
 * item[=].item[=].text = "Zwischenevaluation"
 * item[=].item[=].repeats = true
+* item[=].item[=].extension.url = $variable
+* item[=].item[=].extension.valueExpression.name = "linkIdPrefix"
+* item[=].item[=].extension.valueExpression.language = $expression-language#text/fhirpath
+* item[=].item[=].extension.valueExpression.expression = "'intEval.'"
 * item[=].item[=].required = false
 
 * item[=].item[=].item[+].linkId = "3.A"
@@ -89,9 +101,8 @@ Usage: #definition
 * item[=].item[=].item[=].text = "Evaluation"
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item.type = #display
+* item[=].item[=].item[=].item.text = "Unable to resolve 'intermediate-evaluation' sub-questionnaire"
 * item[=].item[=].item[=].item.linkId = "3.A.1"
-* item[=].item[=].item[=].item.repeats = false
-* item[=].item[=].item[=].item.required = true
 * item[=].item[=].item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item[=].item[=].item.extension.valueCanonical = $etpro-assessment-intermediate-evaluation-questionnaire
 * item[=].item[=].item[=].item.definition = $etpro-assessment-intermediate-evaluation-questionnaire
@@ -101,9 +112,8 @@ Usage: #definition
 * item[=].item[=].item[=].text = "Bestimmung des weiteren Prozederes"
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item.type = #display
+* item[=].item[=].item[=].item.text = "Unable to resolve 'intermediate-furtherproceeding' sub-questionnaire"
 * item[=].item[=].item[=].item.linkId = "4.A.1"
-* item[=].item[=].item[=].item.repeats = false
-* item[=].item[=].item[=].item.required = true
 * item[=].item[=].item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item[=].item[=].item.extension.valueCanonical = $etpro-assessment-intermediate-furtherproceeding-questionnaire
 * item[=].item[=].item[=].item.definition = $etpro-assessment-intermediate-furtherproceeding-questionnaire
@@ -119,9 +129,8 @@ Usage: #definition
 * item[=].item[=].item[=].text = "Evaluation"
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item.type = #display
+* item[=].item[=].item[=].item.text = "Unable to resolve 'final-evaluation' sub-questionnaire"
 * item[=].item[=].item[=].item.linkId = "3.B.1"
-* item[=].item[=].item[=].item.repeats = false
-* item[=].item[=].item[=].item.required = true
 * item[=].item[=].item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item[=].item[=].item.extension.valueCanonical = $etpro-assessment-final-evaluation-questionnaire
 * item[=].item[=].item[=].item.definition = $etpro-assessment-final-evaluation-questionnaire
@@ -131,9 +140,8 @@ Usage: #definition
 * item[=].item[=].item[=].text = "Bestimmung des weiteren Prozederes"
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item.type = #display
+* item[=].item[=].item[=].item.text = "Unable to resolve 'final-furtherproceeding' sub-questionnaire"
 * item[=].item[=].item[=].item.linkId = "4.B.1"
-* item[=].item[=].item[=].item.repeats = false
-* item[=].item[=].item[=].item.required = true
 * item[=].item[=].item[=].item.extension.url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-subQuestionnaire"
 * item[=].item[=].item[=].item.extension.valueCanonical = $etpro-assessment-final-furtherproceeding-questionnaire
 * item[=].item[=].item[=].item.definition = $etpro-assessment-final-furtherproceeding-questionnaire

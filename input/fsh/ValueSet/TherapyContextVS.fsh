@@ -6,4 +6,5 @@ Description: "Kontext/Umfeld, in dem eine ergotherapeutische Therapie durchgefü
 * ^version = "1.0.0"
 * ^name = "TherapiekontextVS"
 * ^status = $publication-status#active
+* ^experimental = true
 * include codes from system $etpro-therapiekontext

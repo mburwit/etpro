@@ -6,4 +6,5 @@ Description: "Liste möglicher Anlässe einer Abschlussevaluation gem. ETpro Pro
 * ^version = "1.0.0"
 * ^name = "ReasonForFinalEvaluationVS"
 * ^status = $publication-status#active
+* ^experimental = true
 * include codes from system $etpro-reason-final-evaluation

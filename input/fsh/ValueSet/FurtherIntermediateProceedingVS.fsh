@@ -6,4 +6,5 @@ Description: "Liste möglicher Anschluss-Aktivitäten zur Festlegung des weitere
 * ^version = "1.0.0"
 * ^name = "FurtherIntermediateProceedingVS"
 * ^status = $publication-status#active
+* ^experimental = true
 * include codes from system $etpro-further-intermediate-proceeding

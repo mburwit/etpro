@@ -1,11 +1,15 @@
 Instance: ETproAssessmentFinalEvaluation
-InstanceOf: Questionnaire
+InstanceOf: SDCModularQuestionnaire
 Usage: #definition
 Title: "ETpro Assessment - Abschlussevaluation"
 Description: "Dokumentation einer Abschlussevaluation einer ergotherapeutischen Therapie gemäß des ETpro Prozessstandards"
 * insert QuestionnaireMetadata
 * url = $etpro-assessment-final-evaluation-questionnaire
 * name = "ETproAssessmentFinalEvaluation"
+* title = "ETpro Assessment - Abschlussevaluation"
+* status = $publication-status#active
+* extension.url = $extension-sdc-questionnaire-assemble-expectation
+* extension.valueCode = $extension-sdc-questionnaire-assemble-expectation-cs#assemble-child
 
 // Constraints
 // maximal 3 Ziele
@@ -50,12 +54,12 @@ Description: "Dokumentation einer Abschlussevaluation einer ergotherapeutischen 
 * item[=].item[=].readOnly = false
 * item[=].item[=].extension[+].url = $extension-questionnaire-minValue
 * item[=].item[=].extension[=].valueInteger = 1
-* item[=].item[=].extension[=].valueInteger.extension.url = $extension-questionnaire-validationMessage
-* item[=].item[=].extension[=].valueInteger.extension.valueString = "Wert der Zielerreichung muss zwischen 1 (in keiner Weise möglich) und 10 (vollständig möglich) liegen!"
+// * item[=].item[=].extension[=].valueInteger.extension.url = $extension-questionnaire-validationMessage
+// * item[=].item[=].extension[=].valueInteger.extension.valueString = "Wert der Zielerreichung muss zwischen 1 (in keiner Weise möglich) und 10 (vollständig möglich) liegen!"
 * item[=].item[=].extension[+].url = $extension-questionnaire-maxValue
 * item[=].item[=].extension[=].valueInteger = 10
-* item[=].item[=].extension[=].valueInteger.extension.url = $extension-questionnaire-validationMessage
-* item[=].item[=].extension[=].valueInteger.extension.valueString = "Wert der Zielerreichung muss zwischen 1 (in keiner Weise möglich) und 10 (vollständig möglich) liegen!"
+// * item[=].item[=].extension[=].valueInteger.extension.url = $extension-questionnaire-validationMessage
+// * item[=].item[=].extension[=].valueInteger.extension.valueString = "Wert der Zielerreichung muss zwischen 1 (in keiner Weise möglich) und 10 (vollständig möglich) liegen!"
 
 * item[=].item[+].linkId = "ETpro-A-FinalEval.1.7"
 * item[=].item[=].text = "Zufriedenheit Klient:in"
@@ -65,12 +69,12 @@ Description: "Dokumentation einer Abschlussevaluation einer ergotherapeutischen 
 * item[=].item[=].readOnly = false
 * item[=].item[=].extension[+].url = $extension-questionnaire-minValue
 * item[=].item[=].extension[=].valueInteger = 1
-* item[=].item[=].extension[=].valueInteger.extension.url = $extension-questionnaire-validationMessage
-* item[=].item[=].extension[=].valueInteger.extension.valueString = "Wert der Zielerreichung muss zwischen 1 (in keiner Weise möglich) und 10 (vollständig möglich) liegen!"
+// * item[=].item[=].extension[=].valueInteger.extension.url = $extension-questionnaire-validationMessage
+// * item[=].item[=].extension[=].valueInteger.extension.valueString = "Wert der Zielerreichung muss zwischen 1 (in keiner Weise möglich) und 10 (vollständig möglich) liegen!"
 * item[=].item[=].extension[+].url = $extension-questionnaire-maxValue
 * item[=].item[=].extension[=].valueInteger = 10
-* item[=].item[=].extension[=].valueInteger.extension.url = $extension-questionnaire-validationMessage
-* item[=].item[=].extension[=].valueInteger.extension.valueString = "Wert der Zielerreichung muss zwischen 1 (in keiner Weise möglich) und 10 (vollständig möglich) liegen!"
+// * item[=].item[=].extension[=].valueInteger.extension.url = $extension-questionnaire-validationMessage
+// * item[=].item[=].extension[=].valueInteger.extension.valueString = "Wert der Zielerreichung muss zwischen 1 (in keiner Weise möglich) und 10 (vollständig möglich) liegen!"
 
 * item[+].linkId = "ETpro-A-FinalEval.2"
 * item[=].text = "Haben Standardisierte Test- und Messverfahren / Assessments stattgefunden?"

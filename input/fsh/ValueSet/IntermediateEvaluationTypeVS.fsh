@@ -6,4 +6,5 @@ Description: "Art der Veranlassung einer ergotherapeutischen Zwischenevaluation"
 * ^version = "1.0.0"
 * ^name = "AnlassZwischenevaluation"
 * ^status = $publication-status#active
+* ^experimental = true
 * include codes from system $etpro-intermediate-evaluation-type

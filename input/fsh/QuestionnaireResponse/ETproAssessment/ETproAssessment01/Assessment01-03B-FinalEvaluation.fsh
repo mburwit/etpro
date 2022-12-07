@@ -1,5 +1,5 @@
 Instance: ETproAssessment01FinalEvaluation
-InstanceOf: QuestionnaireResponse
+InstanceOf: SDCQuestionnaireResponse
 Usage: #example
 Title: "Beispiel-Assessment - Abschlussevaluation"
 Description: "Beispiel eines ETpro Assessments - Abschlussevaluation"

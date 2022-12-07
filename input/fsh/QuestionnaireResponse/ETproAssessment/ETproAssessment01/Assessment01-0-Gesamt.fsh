@@ -1,5 +1,5 @@
 Instance: ETproAssessment01
-InstanceOf: QuestionnaireResponse
+InstanceOf: SDCQuestionnaireResponse
 Usage: #example
 Title: "Beispiel-Assessment"
 Description: "Beispiel eines ETpro Assessments"
@@ -41,6 +41,8 @@ Description: "Beispiel eines ETpro Assessments"
 * item[=].text = "Therapiedurchführung"
 * item[=].item[+].linkId = "2.1"
 * item[=].item[=].answer.valueReference = Reference(ETproAssessment01TherapyExecution01)
+* item[+].linkId = "2"
+* item[=].text = "Therapiedurchführung"
 * item[=].item[+].linkId = "2.1"
 * item[=].item[=].answer.valueReference = Reference(ETproAssessment01TherapyExecution02)
 

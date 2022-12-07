@@ -6,4 +6,5 @@ Description: "Mögliche Risikobewertung für die Ergotherapie"
 * ^version = "1.0.0"
 * ^name = "RisikobewertungVS"
 * ^status = $publication-status#active
+* ^experimental = true
 * include codes from system $etpro-risikobewertung

@@ -1,11 +1,15 @@
 Instance: ETproAssessmentPersonalData
-InstanceOf: Questionnaire
+InstanceOf: SDCModularQuestionnaire
 Usage: #definition
 Title: "ETpro Assessment - Daten zur Person"
 Description: "Für das ETpro Assessment benötigte Daten zur Person."
 * insert QuestionnaireMetadata
 * url = $etpro-assessment-personaldata-questionnaire
 * name = "ETproAssessmentPersonalData"
+* title = "ETpro Assessment - Daten zur Person"
+* status = $publication-status#active
+* extension.url = $extension-sdc-questionnaire-assemble-expectation
+* extension.valueCode = $extension-sdc-questionnaire-assemble-expectation-cs#assemble-child
 
 * item[+].linkId = "ETpro-A-PD.0"
 * item[=].text = "Geburtsjahr"

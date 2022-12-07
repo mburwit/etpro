@@ -6,4 +6,5 @@ Description: "Liste möglicher Verordnungsarten"
 * ^version = "1.0.0"
 * ^name = "Verordnungsart"
 * ^status = $publication-status#active
+* ^experimental = true
 * include codes from system $etpro-verordnungsarten

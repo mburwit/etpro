@@ -1,5 +1,5 @@
 Instance: ETproAssessment01Diagnostics
-InstanceOf: QuestionnaireResponse
+InstanceOf: SDCQuestionnaireResponse
 Usage: #example
 Title: "Beispiel-Assessment - Diagnostik"
 Description: "Beispiel eines ETpro Assessments - Diagnosstik"

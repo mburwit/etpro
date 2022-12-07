@@ -1,5 +1,5 @@
 Instance: ETproAssessment01GoalDefinition
-InstanceOf: QuestionnaireResponse
+InstanceOf: SDCQuestionnaireResponse
 Usage: #example
 Title: "Beispiel-Assessment - Zieldefinition"
 Description: "Beispiel eines ETpro Assessments - Zieldefinition"

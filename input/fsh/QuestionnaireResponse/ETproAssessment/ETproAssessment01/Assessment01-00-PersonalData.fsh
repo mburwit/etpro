@@ -1,5 +1,5 @@
 Instance: ETproAssessment01PersonalData
-InstanceOf: QuestionnaireResponse
+InstanceOf: SDCQuestionnaireResponse
 Usage: #example
 Title: "Beispiel-Assessment - Daten zur Person"
 Description: "Beispiel eines ETpro Assessments - Daten zur Person"

@@ -1,5 +1,5 @@
 Instance: ETproAssessment01IntermediateFurtherProceeding01
-InstanceOf: QuestionnaireResponse
+InstanceOf: SDCQuestionnaireResponse
 Usage: #example
 Title: "Beispiel-Assessment - Weiteres Prozedere nach 1. Zwischenevaluation"
 Description: "Beispiel eines ETpro Assessments - Weiteres Prozedere"

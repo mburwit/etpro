@@ -1,11 +1,15 @@
 Instance: ETproAssessmentScreening
-InstanceOf: Questionnaire
+InstanceOf: SDCModularQuestionnaire
 Usage: #definition
 Title: "ETpro Assessment - Screening"
 Description: "Dokumentation des ergotherapeutischen Screenings gemäß des ETpro Prozessstandards"
 * insert QuestionnaireMetadata
 * url = $etpro-assessment-screening-questionnaire
 * name = "ETproAssessmentScreening"
+* title = "ETpro Assessment - Screening"
+* status = $publication-status#active
+* extension.url = $extension-sdc-questionnaire-assemble-expectation
+* extension.valueCode = $extension-sdc-questionnaire-assemble-expectation-cs#assemble-child
 
 * item[+].linkId = "ETpro-A-SC.0"
 * item[=].text = "Verordnung / sonstiger Auftrag"

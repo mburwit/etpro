@@ -6,6 +6,7 @@ Description: "Wie verordnet / Anpasssung notwendig / Unbekannt ValueSet"
 * ^version = "1.0.0"
 * ^name = "WieverordnetAnpassungUnk"
 * ^status = $publication-status#active
+* ^experimental = true
 * include codes from system $etpro-wieverordnetAnpassungUnk
 * ^compose.include.system = $loinc
 * ^compose.include.concept[+].code = #LA4489-6

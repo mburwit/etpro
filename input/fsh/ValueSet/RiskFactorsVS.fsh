@@ -6,4 +6,5 @@ Description: "Liste möglicher Risikofaktoren, die Einfluss auf die Ergotherapie
 * ^version = "1.0.0"
 * ^name = "RisikofaktorenVS"
 * ^status = $publication-status#active
+* ^experimental = true
 * include codes from system $etpro-risikofaktoren

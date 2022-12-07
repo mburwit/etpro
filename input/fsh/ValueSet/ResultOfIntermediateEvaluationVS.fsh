@@ -6,4 +6,5 @@ Description: "Liste möglicher Ergebnisse einer Zwischenevaluation gem. ETpro Pr
 * ^version = "1.0.0"
 * ^name = "ResultOfIntermediateEvaluationVS"
 * ^status = $publication-status#active
+* ^experimental = true
 * include codes from system $etpro-result-intermediate-evaluation

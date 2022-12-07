@@ -6,4 +6,5 @@ Description: "Liste der ICD10 Diagnosecodes"
 * ^version = "1.0.0"
 * ^name = "ICD10"
 * ^status = $publication-status#active
+* ^experimental = true
 * include codes from system $icd-10-gm

@@ -1,5 +1,5 @@
 Instance: ETproAssessment01Screening
-InstanceOf: QuestionnaireResponse
+InstanceOf: SDCQuestionnaireResponse
 Usage: #example
 Title: "Beispiel-Assessment - Screening"
 Description: "Beispiel eines ETpro Assessments - Screening"
@@ -20,8 +20,10 @@ Description: "Beispiel eines ETpro Assessments - Screening"
 
 * item[+].linkId = "ETpro-A-SC.2"
 * item[=].text = "Diagnosen"
-* item[=].answer[+].valueCoding = $icd-10-gm#F51.09    // Schlafstörung
+* item[=].answer[+].valueCoding = $icd-10-gm#F51.9    // Schlafstörung
+* item[=].answer[=].valueCoding.version = "2023"
 * item[=].answer[+].valueCoding = $icd-10-gm#R42    // Schwindel und Taumel
+* item[=].answer[=].valueCoding.version = "2023"
 
 * item[+].linkId = "ETpro-A-SC.3"
 * item[=].text = "Aufklärung des Klienten über Ergotherapie durch (Therapeut:in)"

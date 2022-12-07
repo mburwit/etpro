@@ -6,4 +6,5 @@ Description: "Geschlecht ValueSet"
 * ^version = "1.0.0"
 * ^name = "Geschlecht"
 * ^status = $publication-status#active
+* ^experimental = true
 * include codes from system $gender-amtlich-de

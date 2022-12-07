@@ -6,4 +6,5 @@ Description: "Ja / Ja, unter Bedingung(en) / Nein / Unbekannt"
 * ^version = "1.0.0"
 * ^name = "JaBedingtNeinUnbekannt"
 * ^status = $publication-status#active
+* ^experimental = true
 * include codes from system $etpro-jabedingtnein

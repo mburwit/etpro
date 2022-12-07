@@ -1,11 +1,15 @@
 Instance: ETproAssessmentTherapyExecution
-InstanceOf: Questionnaire
+InstanceOf: SDCModularQuestionnaire
 Usage: #definition
 Title: "ETpro Assessment - Therapiedurchführung"
 Description: "Dokumentation der Durchführung der ergotherapeutischen Therapie gemäß des ETpro Prozessstandards"
 * insert QuestionnaireMetadata
 * url = $etpro-assessment-therapyexecution-questionnaire
 * name = "ETproAssessmentTherapyExecution"
+* title = "ETpro Assessment - Therapiedurchführung"
+* status = $publication-status#active
+* extension.url = $extension-sdc-questionnaire-assemble-expectation
+* extension.valueCode = $extension-sdc-questionnaire-assemble-expectation-cs#assemble-child
 
 * item[+].linkId = "ETpro-A-TEXE.0"
 * item[=].text = "Datum"
