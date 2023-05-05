@@ -1,5 +1,5 @@
 Instance: ETproAssessmentDiagnostics
-InstanceOf: SDCModularQuestionnaire
+InstanceOf: ETproQuestionnaireModular
 Usage: #definition
 Title: "ETpro Assessment - Diagnostik"
 Description: "Dokumentation der ergotherapeutischen Diagnostik gemäß des ETpro Prozessstandards"

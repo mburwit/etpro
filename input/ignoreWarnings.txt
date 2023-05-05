@@ -4,10 +4,6 @@
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
 
-# ICD10 ValueSet is not published and can therefore not be validated
-Code System URI "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ist unbekannt, so dass der Code nicht validiert werden kann
-Error from server: Unable to provide support for code system http://fhir.de/CodeSystem/bfarm/icd-10-gm
-
-# that's why
-ERROR: QuestionnaireResponse/ETproAssessment01Screening: QuestionnaireResponse.item[2].answer[0]: Der angegebene Wert (http://fhir.de/CodeSystem/bfarm/icd-10-gm::F51.9) ist nicht in den im Fragebogen gesetzten options value set enthalten.
-ERROR: QuestionnaireResponse/ETproAssessment01Screening: QuestionnaireResponse.item[2].answer[1]: Der angegebene Wert (http://fhir.de/CodeSystem/bfarm/icd-10-gm::R42) ist nicht in den im Fragebogen gesetzten options value set enthalten.
+# we don't need to pay attention to the following missing links of external definitions
+The link 'OperationDefinition-Questionnaire-assemble.html' for "$assemble" cannot be resolved
+The link 'StructureDefinition-sdc-questionnaire-subQuestionnaire.html' for "sub-questionnaire" cannot be resolved

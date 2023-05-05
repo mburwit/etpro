@@ -16,7 +16,7 @@ Description: "Beispiel eines ETpro Assessments - Daten zur Person"
 
 * item[+].linkId = "ETpro-A-PD.1"
 * item[=].text = "Geschlecht"
-* item[=].answer.valueCoding = $gender-amtlich-de#W // weiblich
+* item[=].answer.valueCoding = $gender-amtlich-de-cs#W // weiblich
 
 * item[+].linkId = "ETpro-A-PD.2"
 * item[=].text = "gesetzliche Betreuung bzw. Sorgeberechtigte dokumentiert"

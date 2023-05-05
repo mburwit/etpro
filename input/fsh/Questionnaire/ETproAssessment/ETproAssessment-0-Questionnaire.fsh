@@ -1,5 +1,5 @@
 Instance: ETproAssessment
-InstanceOf: SDCModularQuestionnaire
+InstanceOf: ETproQuestionnaireModular
 Title: "ETpro Assessment"
 Description: "QM-Datensatz einer Ergotherapeutischen Leistung zum zwecke des Qualitäts-Assessment und zur Übermittlung an den DVE gemäß ETpro"
 Usage: #definition
@@ -71,10 +71,6 @@ Usage: #definition
 * item[=].type = #group
 * item[=].text = "Therapiedurchführung"
 * item[=].repeats = true
-* item[=].extension.url = $variable
-* item[=].extension.valueExpression.name = "linkIdPrefix"
-* item[=].extension.valueExpression.language = $expression-language#text/fhirpath
-* item[=].extension.valueExpression.expression = "'therapy.'"
 * item[=].item.type = #display
 * item[=].item.text = "Unable to resolve 'therapy-execution' sub-questionnaire"
 * item[=].item.linkId = "2.1"
@@ -90,10 +86,6 @@ Usage: #definition
 * item[=].item[=].type = #group
 * item[=].item[=].text = "Zwischenevaluation"
 * item[=].item[=].repeats = true
-* item[=].item[=].extension.url = $variable
-* item[=].item[=].extension.valueExpression.name = "linkIdPrefix"
-* item[=].item[=].extension.valueExpression.language = $expression-language#text/fhirpath
-* item[=].item[=].extension.valueExpression.expression = "'intEval.'"
 * item[=].item[=].required = false
 
 * item[=].item[=].item[+].linkId = "3.A"

@@ -1,5 +1,5 @@
 Instance: ETproAssessmentTherapyExecution
-InstanceOf: SDCModularQuestionnaire
+InstanceOf: ETproQuestionnaireModular
 Usage: #definition
 Title: "ETpro Assessment - Therapiedurchführung"
 Description: "Dokumentation der Durchführung der ergotherapeutischen Therapie gemäß des ETpro Prozessstandards"

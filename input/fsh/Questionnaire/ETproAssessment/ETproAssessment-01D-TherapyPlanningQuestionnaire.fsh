@@ -1,5 +1,5 @@
 Instance: ETproAssessmentTherapyPlanning
-InstanceOf: SDCModularQuestionnaire
+InstanceOf: ETproQuestionnaireModular
 Usage: #definition
 Title: "ETpro Assessment - Therapieplanung"
 Description: "Dokumentation der Planung der ergotherapeutischen Therapie gemäß des ETpro Prozessstandards"

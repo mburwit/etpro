@@ -1,5 +1,5 @@
 Instance: ETproAssessmentIntermediateEvaluation
-InstanceOf: SDCModularQuestionnaire
+InstanceOf: ETproQuestionnaireModular
 Usage: #definition
 Title: "ETpro Assessment - Zwischenevaluation"
 Description: "Dokumentation einer Zwischenevaluation einer ergotherapeutischen Therapie gemäß des ETpro Prozessstandards"

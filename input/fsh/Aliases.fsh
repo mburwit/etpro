@@ -18,9 +18,10 @@ Alias: $extension-questionnaire-minValue = http://hl7.org/fhir/StructureDefiniti
 Alias: $extension-questionnaire-maxValue = http://hl7.org/fhir/StructureDefinition/maxValue
 Alias: $extension-sdc-questionnaire-assemble-expectation = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-assemble-expectation
 Alias: $extension-sdc-questionnaire-assemble-expectation-cs = http://hl7.org/fhir/uv/sdc/CodeSystem/assemble-expectation
+Alias: $sdc-questionnaire-modular = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-modular
 Alias: $variable = http://hl7.org/fhir/StructureDefinition/variable
 // Alias: $extension-questionnaire-validationMessage = validation-message
-Alias: $gender-amtlich-de = http://fhir.de/CodeSystem/gender-amtlich-de
+Alias: $gender-amtlich-de-cs = http://fhir.de/CodeSystem/gender-amtlich-de
 Alias: $icd-10-gm = http://hl7.org/fhir/sid/icd-10-cm
 Alias: $ietf-bcp-47 = urn:ietf:bcp:47
 Alias: $ihe-xds-class-code = http://ihe-d.de/ValueSets/IHEXDSclassCode
@@ -79,6 +80,9 @@ Alias: $etpro-assessment-intermediate-evaluation-questionnaire = https://etpro.h
 Alias: $etpro-assessment-intermediate-furtherproceeding-questionnaire = https://etpro.helict.de/fhir/Questionnaire/ETproAssessmentIntermediateFurtherProceeding
 Alias: $etpro-assessment-final-evaluation-questionnaire = https://etpro.helict.de/fhir/Questionnaire/ETproAssessmentFinalEvaluation
 Alias: $etpro-assessment-final-furtherproceeding-questionnaire = https://etpro.helict.de/fhir/Questionnaire/ETproAssessmentFinalFurtherProceeding
+
+// StructureDefinitions
+Alias: $etpro-structuredefinition-questionnairemodular = https://etpro.helict.de/fhir/StructureDefinition/ETproQuestionnaireModular
 
 // ETpro Terminology
 Alias: $etpro-diagnosegruppe = https://etpro.helict.de/fhir/CodeSystem/DiagnosisGroup

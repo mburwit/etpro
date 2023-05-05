@@ -1,5 +1,5 @@
 Instance: ETproAssessmentScreening
-InstanceOf: SDCModularQuestionnaire
+InstanceOf: ETproQuestionnaireModular
 Usage: #definition
 Title: "ETpro Assessment - Screening"
 Description: "Dokumentation des ergotherapeutischen Screenings gemäß des ETpro Prozessstandards"

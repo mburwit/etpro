@@ -1,5 +1,5 @@
 Instance: ETproAssessmentGoalDefinition
-InstanceOf: SDCModularQuestionnaire
+InstanceOf: ETproQuestionnaireModular
 Usage: #definition
 Title: "ETpro Assessment - Zieldefinition"
 Description: "Dokumentation der ergotherapeutischen Zieldefinition gemäß des ETpro Prozessstandards"

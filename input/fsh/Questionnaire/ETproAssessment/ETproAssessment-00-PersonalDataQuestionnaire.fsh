@@ -1,5 +1,5 @@
 Instance: ETproAssessmentPersonalData
-InstanceOf: SDCModularQuestionnaire
+InstanceOf: ETproQuestionnaireModular
 Usage: #definition
 Title: "ETpro Assessment - Daten zur Person"
 Description: "Für das ETpro Assessment benötigte Daten zur Person."

@@ -1,5 +1,5 @@
 Instance: ETproAssessmentFinalEvaluation
-InstanceOf: SDCModularQuestionnaire
+InstanceOf: ETproQuestionnaireModular
 Usage: #definition
 Title: "ETpro Assessment - Abschlussevaluation"
 Description: "Dokumentation einer Abschlussevaluation einer ergotherapeutischen Therapie gemäß des ETpro Prozessstandards"

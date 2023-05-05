@@ -1,5 +1,5 @@
 Instance: ETproAssessmentIntermediateFurtherProceeding
-InstanceOf: SDCModularQuestionnaire
+InstanceOf: ETproQuestionnaireModular
 Usage: #definition
 Title: "ETpro Assessment - Weiteres Prozedere nach Zwischenevaluation"
 Description: "Dokumentation der Festlegung des Folge-Prozedere im Anschluss an eine Zwischenevaluation einer ergotherapeutischen Therapie gemäß des ETpro Prozessstandards"
